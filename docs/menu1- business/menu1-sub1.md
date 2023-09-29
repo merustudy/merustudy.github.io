@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Menu1-sub1-sub1
+title: Beginer
 nav_order: 1
-parent: Menu1-sub1
-grand_parent: Menu1
+parent: Business
+has_children: true
 ---
 
-# Menu1-sbu1-sub1
+# Menu1-sub1
 {: .no_toc }
 
 <details open markdown="block">

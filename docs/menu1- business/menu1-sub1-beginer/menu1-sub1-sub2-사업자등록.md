@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Menu1-sub1
-nav_order: 1
-parent: Menu1
-has_children: true
+title: 사업자등록
+nav_order: 2
+parent: Beginer
+grand_parent: Business
 ---
 
-# Menu1-sub1
+# 사업자 등록
 {: .no_toc }
 
 <details open markdown="block">
