@@ -23,6 +23,8 @@ grand_parent: Business
 
 ### Step 1-1. 홈택스에서 사업자 등록하기
 
+* [[Youtube] 해외구매대행 사업자 신고하기](https://www.youtube.com/watch?v=gJZ3Gwniwv0)
+
 * [홈택스](https://www.hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml) → 국세증명·사업자등록·세금관린 신청/신고 → 사업자등록 신청·정정 → 개인 사업자등록 신청
 
 * 인적사항
@@ -38,8 +40,13 @@ grand_parent: Business
 ### Step 1-2. 업태 선정하기
 
 
-* 업종 코드 
-  * 구매대행 업종 코드 525101(전자상거래 소매업) 신청. 그리고 525105(해외 직구 대행업) 추가
+* 업종 코드 : 525105 해외직구대행업
+  * 국내위탁판매와 전자상거래소매업 같이 업종할 경우 매출 구조 복잡 → 부가세 신고 복잡 : 사업자 별도 구분하는 것이 용이함
+* 산업분류코드 : 47911 전자상거래 소매 중개업
+
+
+
+
 
 * 사업자 유형 : 간이과세자 선택
   * 일반과세자
@@ -50,7 +57,7 @@ grand_parent: Business
 
 ### Step 1-3. 기타 참고사항
 
-* [[Youtube-이걸 모르고 창업하면 세금폭탄! | 개인사업자 세무회계 상식]](https://www.youtube.com/watch?v=0Tn_Kwu1W_s)
+* [[Youtube] 이걸 모르고 창업하면 세금폭탄! | 개인사업자 세무회계 상식](https://www.youtube.com/watch?v=0Tn_Kwu1W_s)
 
 1. 사업자 등록은 집주소로도 가능하다.
 굳이 사무실 빌리거나 하지 않아도 된다.
