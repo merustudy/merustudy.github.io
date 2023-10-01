@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 비용 처리
+title: 비용
 nav_order: 11
 parent: Beginer
 grand_parent: Business
