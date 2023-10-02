@@ -19,7 +19,7 @@ grand_parent: Business
 </details>
 <!------------------------------------ STEP ------------------------------------>
 
-* [[Youtube-이걸 모르고 창업하면 세금폭탄! | 개인사업자 세무회계 상식]](https://www.youtube.com/watch?v=0Tn_Kwu1W_s)
+* [[Youtube-이걸 모르고 창업하면 세금폭탄!/개인사업자 세무회계 상식]](https://www.youtube.com/watch?v=0Tn_Kwu1W_s)
 
 * 사업자계좌/사업자카드 홈텍스에서 등록하자 
 + 적격증빙 수취(등록된 사업자 카드로 사용시)
