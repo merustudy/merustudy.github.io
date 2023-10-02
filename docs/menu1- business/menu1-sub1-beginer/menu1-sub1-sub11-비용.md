@@ -6,7 +6,7 @@ parent: Beginer
 grand_parent: Business
 ---
 
-# 비용 처리
+# 비용
 {: .no_toc }
 
 <details open markdown="block">
