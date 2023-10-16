@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 2023
-nav_order: 23
-parent: News
+title: 상한가
+nav_order: 21
+parent: Stock
 has_children: true
 ---
 
-# 2023
+# 상한가
 {: .no_toc }
 
 <details open markdown="block">

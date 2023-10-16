@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 10월
-nav_order: 10
-parent: 2023
-grand_parent: News
+title: News
+nav_order: 11
+parent: Stock
+has_children: true
 ---
 
-# 2023년 10월
+# News
 {: .no_toc }
 
 <details open markdown="block">
