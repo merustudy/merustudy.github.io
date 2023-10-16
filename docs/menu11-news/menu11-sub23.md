@@ -1,0 +1,20 @@
+---
+layout: default
+title: 2023
+nav_order: 23
+parent: News
+has_children: true
+---
+
+# 2023
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+<!------------------------------------ STEP ------------------------------------>

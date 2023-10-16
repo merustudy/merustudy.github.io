@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Menu9-sub1-sub1
-nav_order: 1
-parent: Menu9-sub1
-grand_parent: Menu9
+title: 10월
+nav_order: 10
+parent: 2023
+grand_parent: News
 ---
 
-# Menu9-sbu1-sub1
+# 2023년 10월
 {: .no_toc }
 
 <details open markdown="block">
@@ -18,5 +18,3 @@ grand_parent: Menu9
 {:toc}
 </details>
 <!------------------------------------ STEP ------------------------------------>
-
-## STEP 1. 일번
