@@ -23,6 +23,8 @@ grand_parent: Stock
 ## 11월
 
 * 12월 대비 [배당주], [감기약] 관련 선점 여부 검토
+  * [배당주] 제주은행 // [감기약] 경보제약, 화일약품
+
 
 * 11월 상반기 : [제약/바이오] 미국면역항암학회(SITC) 개최
   * 2023-11-02(목) : 관련 주 급상승
@@ -36,7 +38,12 @@ grand_parent: Stock
 
 <br>
 
-* [2022년 제약, 바이오 주요 학회 일정 알아보기](https://lazarus0211.tistory.com/m/520)
-
 
 ## 12월
+
+<br>
+
+<br>
+
+* [2022년 제약, 바이오 주요 학회 일정 알아보기](https://lazarus0211.tistory.com/m/520)
+* [2023년 제약, 바이오 학회](https://hjs9310.tistory.com/614#google_vignette)
