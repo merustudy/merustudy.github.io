@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 상한가
+title: Analyze
 nav_order: 21
 parent: Stock
 has_children: true
 ---
 
-# 상한가
+# Analyze
 {: .no_toc }
 
 <details open markdown="block">
