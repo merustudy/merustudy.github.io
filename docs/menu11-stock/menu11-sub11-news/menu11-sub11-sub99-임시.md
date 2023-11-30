@@ -91,3 +91,8 @@ grand_parent: Stock
 ### AGI
 
 * **2023-11-24(금) [오픈AI, AGI 개발 돌파구 찾았다...인간처럼 추론하는 LLM '큐스타' 개발 중](https://www.aitimes.com/news/articleView.html?idxno=155433)**
+
+### 우크라이나 재건
+
+* 2024년 하반기 트럼프 재선 성공시 관련주 부상 가능
+* 유신(30000)
