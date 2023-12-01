@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 임시
-nav_order: 99
-parent: News
-grand_parent: Stock
+title: Idea
+nav_order: 6
+parent: Stock
+has_children: true
 ---
 
-# 임시
+# Idea
 {: .no_toc }
 
 <details open markdown="block">
@@ -18,9 +18,3 @@ grand_parent: Stock
 {:toc}
 </details>
 <!------------------------------------ STEP ------------------------------------>
-
-
-
-
-
-
