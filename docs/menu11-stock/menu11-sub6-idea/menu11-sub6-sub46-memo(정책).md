@@ -25,6 +25,7 @@ grand_parent: Stock
 * [한국은행 주간보도계획(금요일 오전10시30분 업데이트)](https://www.bok.or.kr/portal/bbs/P0001726/list.do?menuNo=200039)
 * [농림축산식품부 주간일정(?요일 ?시 업데이트)](https://www.mafra.go.kr/home/5306/subview.do)
 
+* [통계청 보도계획](https://kostat.go.kr/newsPln.es?mid=a10305000000&bid=)
 
 
 <br>
