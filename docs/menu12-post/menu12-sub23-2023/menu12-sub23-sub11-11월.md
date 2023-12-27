@@ -2525,26 +2525,6 @@ KOSDAQ 개인+4,659 / 외국인-2,458 / 기관-2,211
 
 ### 8일(수)
 
-![img](https://scs-phinf.pstatic.net/MjAyMzA2MTRfMzAw/MDAxNjg2NzE1MzA1MTU2.oziFZc8qpyB2Zsy-oAD8YsYeQhf_IIwaxg-7ML3eJ28g.mIfwZdsNZgQxkZ6axuq6k1v_ZsxOQQs0JW1sHeaCi4kg.JPEG/%EC%9E%A5%EB%A7%88%EA%B0%90%EB%A8%B8%EB%8B%88%ED%94%8C%EB%A1%9C%EC%9A%B0.jpg?type=nfs670_440)
-
-[장마감 브리핑](https://contents.premium.naver.com/finup/moneysurferplus/contents?categoryId=188ad2fdc170008mq)
-
-2023년 11월 08일 (수) 장마감 머니 플로우
-
-2023.11.08. 오후 4:20
-
-![img](https://scs-phinf.pstatic.net/MjAyMzA2MTJfMTEg/MDAxNjg2NTMyMTkwNTEy.6SDIu4TW7hl7NBPXJvovU_ODB3Qg028EXHPX5U6yRV0g.NL8LTAh-Jt6qHLi7dRxytml9U4zLWHnC6PImMK4_ZMgg.PNG/image%7Cpremium%7Cauthor%7Cfinup_moneysurferplus%7C2023%7C06%7C12%7C1686532190493.png?type=nfs200_200)
-
-*by* [머니서퍼](https://contents.premium.naver.com/finup/moneysurferplus/authors/188ad275b47g3h)
-
-[ *2*](https://contents.premium.naver.com/finup/moneysurferplus/contents/231108161600406iu#)
-
- 댓글
-
- 
-
- [SNS 보내기](https://contents.premium.naver.com/finup/moneysurferplus/contents/231108161600406iu#) 글씨 크기 조정
-
 ![img](https://n2.news.naver.com/l.gif?type=content)**시장 마감 현황**
 
 

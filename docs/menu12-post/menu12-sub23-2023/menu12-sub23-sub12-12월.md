@@ -9134,6 +9134,8 @@ KOSDAQ 개인+825 / 외국인+816 / 기관-1,402
 
 ![img](https://dthumb-phinf.pstatic.net/dthumb?src=%22https://img.finup.co.kr/StockData/Chart/20231227_themelog.png%22&service=scs&type=w800)
 
+
+
 **특징 테마**
 
  
