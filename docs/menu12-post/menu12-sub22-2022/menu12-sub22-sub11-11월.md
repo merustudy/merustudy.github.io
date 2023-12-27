@@ -3,7 +3,7 @@ layout: default
 title: 11월
 nav_order: 11
 parent: 2022
-grand_parent: Post
+grand_parent: P
 
 ---
 

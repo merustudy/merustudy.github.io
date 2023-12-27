@@ -3,7 +3,7 @@ layout: default
 title: 임시(6월)
 nav_order: 6
 parent: 2023
-grand_parent: Post
+grand_parent: P
 
 ---
 

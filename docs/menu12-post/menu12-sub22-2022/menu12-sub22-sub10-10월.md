@@ -3,7 +3,7 @@ layout: default
 title: 10월
 nav_order: 10
 parent: 2022
-grand_parent: Post
+grand_parent: P
 
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: 1월
 nav_order: 1
 parent: 2023
-grand_parent: Post
+grand_parent: P
 
 ---
 
