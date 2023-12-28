@@ -72,14 +72,26 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 {
 
     // ==========enum(열거형) ========== //
-    // 클래스 안이나 네임스페이스 내에서만 선언될 수 있음
-    // 메서드 안이나 속성 안에서는 선언되지 않음
+    // 클래스 안이나 네임스페이스 내에서만 선언될 수 있음, 메서드 안이나 속성 안에서는 선언되지 않음(일종의 class)
+    // 변경 불가한 읽기 전용 깂 (예: 날짜, 색깔 등) 모아 관리 시 유용. 특히, int, bytes 등 정수형 상수 정의 시 유용
     enum Choice
     {
         Rock = 1,
         Paper = 2
         Scissors = 0
     }
+
+
+    // ===========   구조체	=========== //
+    // 클래스 안이나 네임스페이스 내에서만 선언될 수 있음, 메서드 안이나 속성 안에서는 선언되지 않음(일종의 class)
+    // 상속 여부 : Class는 상속이 가능하지만, 구조체는 상속이 불가능하다.
+    // 형식 차이 : Struct는 값 타입(ValueType)이지만 Class는 참조(Reference Type)
+    struct Player
+    {
+        public int hp;		// 밖에서도 사용 가능하다고 public 선언
+        public int atack;
+        public string type;
+    } 
 
     void Start()
     {
@@ -377,6 +389,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 ## STEP 3. Method(Function)
 
+
 ```c#
 using System.Collections;
 using System.Collections.Generic;
@@ -517,6 +530,9 @@ public class Test : MonoBehaviour
 <br>
 
 ## STEP 4. Class
+
+* [class와 struck 비교 블로그 url](https://velog.io/@livelyjuseok/C-Struct%EC%99%80-Class%EC%9D%98-%EC%B0%A8%EC%9D%B4.-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C)
+* [enum과 class 비교 블로그 url](https://homzzang.com/b/cs-36)
 
 ```c#
 ```
