@@ -33,6 +33,7 @@ grand_parent: Unity
 
 ![image-20231226171136681](./../../../images/menu61-sub3-sub21-Basic/image-20231226171136681.png)
 
+
 ```C#
 using System.Collections;
 using System.Collections.Generic;
@@ -162,6 +163,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         }
     }
 }
+
 ```
 
 <!------------------------------------ STEP ------------------------------------>
@@ -275,6 +277,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         else
             isPair = false;
 
+
         // =========== while =========== //
         int count = 5;
         while (count > 0)
@@ -357,7 +360,7 @@ public class Test : MonoBehaviour
     // 한정자 반환형식 이름(매개변수목록) {}
     // 한정자: static 
 
-    // ==========    인수도 반환값도 없는 메서드
+    // ==========    인수도 반환값도 없는 메서드    ========== //
     //void: 반환값이 없음을 의미
     void SayHello()
     {
@@ -365,21 +368,19 @@ public class Test : MonoBehaviour
     }
 
 
-    // ==========    인수를 출력하는 메서드
+    // ==========    인수를 출력하는 메서드 ========== //
     void CallName(string name)
     {
         Debug.Log("Hello" + name);
     }
 
 
-
-    // ==========    인수와 반환값이 있는 메서드
+    // ==========    인수와 반환값이 있는 메서드    ========== // 
      int Add(int a, int b)
     {
         int c = a + b;
         return c;
     }
-
 
     void Start()
     {
@@ -388,6 +389,57 @@ public class Test : MonoBehaviour
         int answer = Add(2, 3);
         Debug.Log(answer);
     }
+
+
+    // ==========   ref    ========== //
+    // 입력받은 변수를 직접적으로 변화시키고 싶을 때 메모리 참조하겠다는 뜻
+    // return 대신 원본 변수로 반환 받는 경우
+    // Swap 같은 함수 작성 시 유용
+    static void AddOne(ref int number)  
+    {
+        number = number + 1;
+    }
+
+    static void AddOne2(int number) // 일반적으로 해당 방식 사용 권장
+    {
+        return number + 1;
+    }
+
+    void Start()
+    {
+        // 복사(짭퉁) 참조(진퉁)
+        int a= 0;
+        AddOne(ref a);  // ref 안쓰면 에러 발생(원본 변환 확인용)
+        Debug.Log(a);
+
+        a = AddOne2(a)
+        Debug.Log(a);
+    }
+
+    static void Swap(ref int a, ref int b)
+    {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+
+
+    // ==========   out    ========== //
+    // ref의 경우 실제로 사용하지 않거나 값을 넣어주지 않아도 정상 동작(에러 유발)
+    // 다중 반환 가능, 반드시 값 넣어줌 필요   
+    static void Divide(int a, int b, out int result1, out int result2)
+    {
+        result1 = a / b;
+        result2 = a % b;
+    }
+
+    void Start()
+    {
+        
+    }
+
+
+
 }
 ```
 
