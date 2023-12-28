@@ -375,18 +375,19 @@ public class Test : MonoBehaviour
     }
 
 
-    // ==========    인수와 반환값이 있는 메서드    ========== // 
-     int Add(int a, int b)
+    // ==========    인수와 반환값이 있는 메서드    ========== //
+    // 선택적 매개변수: 초기 Method 선언시 인수값을 미리 지정해주면 입력 안해도 가능 
+     int Add(int a, int b = 0, float c = 1.0f, double d = 3.0)
     {
-        int c = a + b;
-        return c;
+        int result = a + b + c + d;
+        return result;
     }
 
     void Start()
     {
         SayHello();
         CallName("Hello");
-        int answer = Add(2, 3);
+        int answer = Add(2, d:3.0f);    // 선택적 매개변수 값 지정
         Debug.Log(answer);
     }
 
@@ -435,11 +436,40 @@ public class Test : MonoBehaviour
 
     void Start()
     {
-        
+        int num1 = 10;
+        int num2 = 3;
+
+        int result1;
+        int result2;
+        Divide(num1, num2, out result1, out result2);
     }
 
 
+    // ==========   Method Overloading   ========== //
+    // 함수 이름의 재사용
+    // 함수 이름이 같다면 매개변수 개수 또는 형식이 달라야함
+    static int Add(int a, int b)
+    {
+        return a + b;
+    }
 
+    static int Add(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+
+    static float Add(float a, float b)
+    {
+        return a + b;
+    }
+
+    void Start()
+    {
+        int result = Add(2, 3);
+        float result2 = Add(2.0f, 3.0f);
+        Debug.Log(result);
+        Debug.Log(result2);
+    }
 }
 ```
 
