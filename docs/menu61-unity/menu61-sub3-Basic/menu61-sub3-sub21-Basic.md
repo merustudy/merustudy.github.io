@@ -21,7 +21,13 @@ grand_parent: Unity
 
 <!------------------------------------ STEP ------------------------------------>
 
+## STEP 0. 기본 지식
 
+* 게임의 구분
+    * 게임 데이터(게임 구현 리소스 등) : 램   
+    * 게임 로직 : CPU 
+
+<br>
 
 ## STEP 1. Variable
 
@@ -42,6 +48,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 
         // ==========	float	========== 
+        // 근사치를 저장함(int와 다른점)
         // ※ float형에 double형 대입시 float형에 들어가지 않는 범위 버려짐(오류 유발)
         // ※ 160.5f 사용(f 미사용시 double형 대입) 
         float height1 = 160.5f;
@@ -52,12 +59,48 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
         // ==========	string	==========
         // 문자와 숫자 더하기 하는 경우 int 변수를 문자열 취급
+        // 큰 따음표 사용
         string str = "happy";
         string message = str + age;
         Debug.Log(message);
+
+
+        // ==========	char	==========
+        // 작은 따음표 사용, 한글자만 저장
+        char chr = 'R';
+        Debug.Log(chr)
+
+
+        // ==========   bool    ==========
+        bool autoPlay = true;
+
+
+        // ==========   Casting ==========
+        // 큰 데이터 타입에서 작은 데이터 타입으로 변환 시 문법
+        int a = 100;
+        // (X) short b = a;		// Error occurred(큰 형식 → 작은 형식)
+        shor b = (short)a; 	// Casting
+
+        float c = a;
+        int d = (int)c;		// Casting
+
+
+        // ===========  String Format   ===========
+        // string은 int와 float와 다른 class 해당되기 때문에 태생이 다름(Casting 외 다른 방법 필요)
+        // string → int
+        string input = Console.ReadLine();
+        int number = int.Parse(input);
+        Console.WriteLine(number);
+
+        // int → string
+        int hp = 100;
+        int maxHp = 100;
+        string message = string.Format("당신의 HP는 {0} / {1} 입니다", hp, maxHp);  // 예전 방식
+        string message = $"당신의 HP는 {hp} / {maxHp} 입니다";		                // 요즘 방식
+        console.WriteLine(message)
+
         
-        
-        //==========    array   ==========
+        // ==========    array   ==========
         int[] array = new int[5];
 
         array[0] = 1;
@@ -80,11 +123,14 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         float average_float = 1.0f * sum / points.Length;   // 1.0f 곱으로 소수 반환
         Debug.Log(average);
         Debug.Log(average_float);
+
+
+
+
+
     }
 }
 ```
-
-
 
 <!------------------------------------ STEP ------------------------------------>
 
