@@ -28,6 +28,16 @@ grand_parent: Unity
     * 게임 데이터(게임 구현 리소스 등) : 램   
     * 게임 로직 : CPU 
 
+* 절차(Procedure) 지향 : 함수 기반
+    * 단점 : 함수 자체가 순서에 종속적 → 관리 어려움
+
+* 객체 지향(Object Oriented) : 클래스 기반
+    * 속성과 기능으로 나누어짐
+    * ex) Knight
+        * 속성: hp, attack
+        * 기능: Move, Attack, Die
+ 
+
 ### Step 0-1. 디버깅
 * 단축키 : F12?
 
@@ -553,6 +563,60 @@ public class Test : MonoBehaviour
 * [enum과 class 비교 블로그 url](https://homzzang.com/b/cs-36)
 
 ```c#
+// 참조(ref)
+class Knight
+{
+    // 속성
+    public int hp;          // public 모두 사용, 없을 경우 class 내에서만 사용
+    public int attack;
+
+    // 기능
+    public void Move()
+    {
+        Console.WriteLine("Knight Move");
+    }
+
+    public void Attack()
+    {
+        Console.WriteLine("Knight Attack");
+    }
+}
+
+
+// 복사
+struct Mage
+{
+    public int hp;
+    public int attack;
+}
+
+class Program
+{
+    static void KillMage(Mage mage)
+    {
+        mage.hp = 0;
+    }
+
+    static void KillKnight(Knight knight)
+    {
+        knight.hp = 0;
+    }
+
+    static void Main(string[] args)
+    {
+        Knight knight = new Knight();   // new : 클래스를 가지고 새로운 객체를 만들 때 사용
+        knight.hp = 100;
+        knight.attack = 10;
+        knight.Move();
+        knight.Attack();
+        KillKnight(knight); // 참조하여 넘기기 때문에 knight.hp는 0
+
+        Mage mage;
+        mage.hp =100;
+        mage.attack = 50;
+        KillMage(mage);     // 복사하여 넘기기 때문에 mage.hp는 100
+    }
+}
 ```
 
 <!------------------------------------ STEP ------------------------------------>
@@ -563,8 +627,12 @@ public class Test : MonoBehaviour
 
 ```c#
 // ==========   Const(상수)   ========== //
-
 Const int GAME_SPPED = 50;
 // (X) GAME_SPEED = 15; // Error occurred(Const varient)
+
+
+// =========== Random   ========== //
+Random rand = new Random();
+int a = rand.Next(1, 4); // 1, 2, 3 중 랜덤 반환
 ```
 
