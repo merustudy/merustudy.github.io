@@ -29,7 +29,7 @@ grand_parent: Unity
 
 <br>
 
-## STEP 1. Variable
+## STEP 1. Variable(데이터)
 
 ![image-20231226171136681](./../../../images/menu61-sub3-sub21-Basic/image-20231226171136681.png)
 
@@ -40,6 +40,17 @@ using UnityEngine;
 
 public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, MonoBehaviour 상속
 {
+
+    // ==========enum(열거형) ========== //
+    // 클래스 안이나 네임스페이스 내에서만 선언될 수 있음
+    // 메서드 안이나 속성 안에서는 선언되지 않음
+    enum Choice
+    {
+        Rock = 1,
+        Paper = 2
+        Scissors = 0
+    }
+
     void Start()
     {
         // ==========	int		==========
@@ -73,6 +84,14 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
         // ==========   bool    ==========
         bool autoPlay = true;
+
+
+        // ==========   var     =========== 
+        // 자동 추론으로 빌드시 타입 대체
+        // 가능하다면 타입을 명시하여 가독성을 높이는게 좋음
+        var a = 1;
+        var b = "STRING";
+        var c = 1.0f;
 
 
         // ==========   Casting ==========
@@ -125,9 +144,22 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         Debug.Log(average_float);
 
 
-
-
-
+        // ==========enum(열거형) ========== //
+        // 클래스 안이나 네임스페이스 내에서만 선언될 수 있음
+        // 메서드 안이나 속성 안에서는 선언되지 않음
+        int choice = 3
+        switch (choice)
+        {
+            case (int)Choice.Scissors:
+                Console.WriteLine("가위");
+                break;
+            case (int)Choice.Paper:
+                Console.WriteLine("보");
+                break;
+            case (int)Choice.Rock:
+                Console.WriteLine("주먹");
+                break;
+        }
     }
 }
 ```
@@ -136,9 +168,42 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 <br>
 
+## STEP 2. Operation(로직)
+
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, MonoBehaviour 상속
+{
+    void Start()
+    {
+        // ==========   Four basic Operations    ========== 
+        int a = 10 / 3;     // 3
+        int a = 10 % 3;     // 1
+
+        int b =a ++;
+        // int b = a;
+        // a += 1
+
+        int b = ++a;
+        // a += 1;
+        // int b = a;
 
 
-## STEP 2. 제어문
+        // ===========  Comparison & Logical Operation  ========== 
+        // AND  OR  NOT
+        // &&   ||   !
+    }
+}
+```
+
+<!------------------------------------ STEP ------------------------------------>
+
+<br>
+
+## STEP 3. 제어문(로직)
 
 ```c#
 using System.Collections;
@@ -151,8 +216,12 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
     {
         // ==========	if	==========
         // 변수 범위: 중괄호 안에서 선언한 변수는 중괄호 안에서만 사용 가능
+        bool isDead = ture
+        if (isDead)
+            Debug.Log("if문");
+
         int hp = 20;
-        if (hp <=50 )
+        if (hp <= 50)
         {
             string inner_str = "전사";
             string log_message = inner_str + "도망!";
@@ -168,6 +237,44 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         }
         // Debug.Log(inner_str); // 변수 범위를 벗어나므로 오류 발생
         
+
+        // ==========   switch  ==========
+        // if 문의 축소판이지만 가독성이 좋아 if문에 우선시하여 사용
+        // case 값으로 일반 변수 사용시 에러 발생, const 변수(상수), enum 사용 가능
+        // case 값으로 하드코딩 대신 상수나, enum 값 사용 
+        switch (choice)
+        {
+            case 0:
+                Debug.Log("가위");
+                break;
+            case 1:
+                Debug.Log("바위");
+                break;
+            case 2:
+                Debug.Log("보");
+                break;
+            case 3:
+                Debug.Log("치트키");
+                break;
+            default:	// else문과 같음
+                Debug.Log("해당 없음");
+                break;
+        }
+
+
+        // ===========  삼항연산자  ===========
+        int number = 25;
+
+        // bool 변수명 = (조건 ? 맞을때 : 틀릴때);
+        bool isPiar = ((number % 2) == 0 ? true : false)
+
+        // 아래와 같은 의미
+        bool isPair;
+        if ((number %2) == 0)
+            isPair = true;
+        else
+            isPair = false;
+
 
         //==========   for   ==========
         for (int i = 3; i >= 0; i--)
@@ -231,10 +338,21 @@ public class Test : MonoBehaviour
 
 <br>
 
-
-
 ## STEP 4. Class
 
 ```c#
+```
+
+<!------------------------------------ STEP ------------------------------------>
+
+<br>
+
+## STEP 9. ETC
+
+```c#
+// ==========   Const(상수)   ========== //
+
+Const int GAME_SPPED = 50;
+// (X) GAME_SPEED = 15; // Error occurred(Const varient)
 ```
 
