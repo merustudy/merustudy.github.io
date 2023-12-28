@@ -89,8 +89,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
     struct Player
     {
         public int hp;		// 밖에서도 사용 가능하다고 public 선언
-        public int atack;
-        public string type;
+        public int damage;
     } 
 
     void Start()
@@ -202,7 +201,26 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
                 Console.WriteLine("주먹");
                 break;
         }
+
+
+        // =========== struck(구조체) ========== //
+        // 한번에 여러 데이터를 넘기고 관리하는데 유용함
+        Player player;
+        CreatePlayer("Knight", out player);
+        Debug.Log($"hp:{player.hp}, damage:{player.damage}");
+
     }
+
+    // struck(Player)을 통한 데이터 관리
+    static void CreatePlayer(string classType, out Player player)
+    {
+        if (classType == "Knight")
+        {
+            player.hp = 10;
+            player.damage = 5;
+        }
+    }
+
 }
 
 ```
