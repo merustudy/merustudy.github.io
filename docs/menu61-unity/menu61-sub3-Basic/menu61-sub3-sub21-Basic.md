@@ -275,12 +275,64 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         else
             isPair = false;
 
+        // =========== while =========== //
+        int count = 5;
+        while (count > 0)
+        {
+            Debug.Log("Hello, World");
+            count--;
+        }
+        
+
+        // 먼저 실행 후 while문 체크(사용빈도 적음)
+        string answer
+        do
+        {
+            Console.WriteLine("강사님은 잘생기셨나요? (y/n) : ");
+            answer = Console.ReadLine();	// do문 안에서 string answer 시 while문 비교에 사용 안됨(변수범위)
+        } while (answer != "y");
+
 
         //==========   for   ==========
+        // for (초기화식; 조건식; 반복식) {내용문}
+        // 초기화식 조건식 내용문 반복식 순서로 실행
         for (int i = 3; i >= 0; i--)
         {
             Debug.Log(i);
         }
+
+
+        // =========== break =========== //
+        // 특정 조건에서 바로 for 문을 뛰어 나옴
+        int num = 97;
+        bool isPrime = true;
+
+        for (int i = 2; i < num; i++)
+        {
+            if ((num % i) ==0) 
+            {
+                isPrime = false;
+                break;
+            }
+        }
+
+        if (isPrime)
+            Debug.Log("소수입니다");
+        else
+            Debug.Log("소수가 아닙니다");
+
+        // =========== countinue =========== //
+        // 특정 조건에서 바로 다음 루프 실행
+        for (int i = 1; i <= 100; i++)
+        {
+            if ((i % 3) !=0)
+                continue;
+            
+            // 3이 아닐 때 내용 기재 → if문 보다 가독성이 좋아짐
+
+            Debug.Log($"3으로 나뉘는 숫자 발견 : {i}");
+        }
+
     }
 }
 ```
