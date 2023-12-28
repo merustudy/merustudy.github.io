@@ -343,7 +343,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 
 
-## STEP 3. Method
+## STEP 3. Method(Function)
 
 ```c#
 using System.Collections;
@@ -352,7 +352,12 @@ using UnityEngine;
 
 public class Test : MonoBehaviour  
 {
-    //==========    인수도 반환값도 없는 메서드
+    // Method
+    // class 안에 있어야 함
+    // 한정자 반환형식 이름(매개변수목록) {}
+    // 한정자: static 
+
+    // ==========    인수도 반환값도 없는 메서드
     //void: 반환값이 없음을 의미
     void SayHello()
     {
@@ -360,7 +365,7 @@ public class Test : MonoBehaviour
     }
 
 
-    //==========    인수를 출력하는 메서드
+    // ==========    인수를 출력하는 메서드
     void CallName(string name)
     {
         Debug.Log("Hello" + name);
@@ -368,7 +373,7 @@ public class Test : MonoBehaviour
 
 
 
-    //==========    인수와 반환값이 있는 메서드
+    // ==========    인수와 반환값이 있는 메서드
      int Add(int a, int b)
     {
         int c = a + b;
