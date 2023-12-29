@@ -201,6 +201,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         // ==========enum(열거형) ========== //
         // 클래스 안이나 네임스페이스 내에서만 선언될 수 있음
         // 메서드 안이나 속성 안에서는 선언되지 않음
+        // casting을 통해 int로 사용 가능
         int choice = 3
         switch (choice)
         {
