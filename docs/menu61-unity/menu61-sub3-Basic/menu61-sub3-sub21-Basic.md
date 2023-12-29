@@ -21,13 +21,17 @@ grand_parent: Unity
 
 <!------------------------------------ STEP ------------------------------------>
 
-## STEP 0. 기본 지식
-### Step 0-0. 개요
+```C#
+```
+
+## STEP 1. 기본 지식
+### Step 1-1. 개요
 
 * 게임의 구분
     * 게임 데이터(게임 구현 리소스 등) : 램   
     * 게임 로직 : CPU 
 
+### Step 1-1. 설계
 * 절차(Procedure) 지향 : 함수 기반
     * 단점 : 함수 자체가 순서에 종속적 → 관리 어려움
 
@@ -38,7 +42,7 @@ grand_parent: Unity
         * 기능: Move, Attack, Die
 
 
-### Step 0-1. 디버깅
+### Step 1-2. 디버깅
 * 단축키 : F12?
 
 * 브레이크 포인트(중단점) 
@@ -68,12 +72,9 @@ grand_parent: Unity
 
 <br>
 
-## STEP 1. Variable(데이터)
+## STEP 2. Variable(데이터)
 
 ![image-20231226171136681](./../../../images/menu61-sub3-sub21-Basic/image-20231226171136681.png)
-
-* Variable
-
 
 ```C#
 using System.Collections;
@@ -241,7 +242,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 <br>
 
-## STEP 2. Operation(로직)
+## STEP 3. Operation(로직)
 
 ```C#
 using System.Collections;
@@ -276,7 +277,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 <br>
 
-## STEP 3. 제어문(로직)
+## STEP 4. 제어문(로직)
 
 ```c#
 using System.Collections;
@@ -417,7 +418,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 
 
-## STEP 3. Method(Function)
+## STEP 5. Method(Function)
 
 
 ```c#
@@ -560,10 +561,18 @@ public class Test : MonoBehaviour
 
 <br>
 
-## STEP 4. Class
+## STEP 6. Class
 
 * [class와 struck 비교 블로그 url](https://velog.io/@livelyjuseok/C-Struct%EC%99%80-Class%EC%9D%98-%EC%B0%A8%EC%9D%B4.-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C)
 * [enum과 class 비교 블로그 url](https://homzzang.com/b/cs-36)
+* enum, struct, class 비교
+    * enum: 각 상수가 서로 다른 의미를 가지는 상황 적합(복사)
+        * casting으로 int 표현 가능
+        * ex) 요일
+    * struct: 변수가 각기 다른 데이터를 가질 필요가 있을 때(복사)
+        * ex) x, y 좌표 포인트
+    * class: 인스턴스를 생성하여 각기 인스턴스의 변수값이 변할 필요가 있을 때(참조)
+        * ex) 게임 몬스터 인스턴스 생성
 
 ```c#
 // 참조(ref)
