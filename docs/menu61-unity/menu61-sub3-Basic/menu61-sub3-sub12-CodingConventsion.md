@@ -28,7 +28,7 @@ grand_parent: Unity
   * 대부분 데이터 파일로 따로 관리 or 맨 위에서 지정
   * 내용 중에 하드코딩 하지 않음
 
-```C#
+```c#
 // 모두 대문자 변수: 변하지 않는 변수(상수)
 const int GAME_SPEED = 3;
 

@@ -76,7 +76,7 @@ grand_parent: Unity
 
 ![image-20231226171136681](./../../../images/menu61-sub3-sub21-Basic/image-20231226171136681.png)
 
-```C#
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -245,7 +245,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 ## STEP 3. Operation(로직)
 
-```C#
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
