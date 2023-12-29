@@ -68,7 +68,21 @@ grand_parent: Unity
 * 조사식
     * 변수 값 확인 및 디버그 중 수정 가능
 
-
+### Step 1-3. Stack/Heap 메모리
+* Stack 메모리
+    * 불안정 임시적
+    * 함수를 실행하기 위한 메모장 같은 존재(실행 후 소멸)
+    * 함수 안의 변수들은 본체가 Stack에 들어감
+        * ex) struck 변수
+    * 함수 안의 class(참조) 변수들은 본체 대신 주소(class의 경우 heap메모리 할당 주소)가 들어감
+    * ref를 사용하여 참조시 본체가 스텍에 할당되어 있다면 스텍의 주소를 저장하게 됨
+        * 참조한다고해서 모두 Heap 메모리에 본체가 있는 것은 아님 
+    * 함수의 호출(영역 생성)가 종료(영역 소멸)를 통해 자동적으로 영역 관리가 됨
+* Heap 메모리
+    * 참조 타입 변수 본체 저장
+    * class 인스턴스 생성 시 힙 메모리에서 할당됨
+    * 깊은 복사 → Heap 메모리에서 할당되어 복사됨(knight.Clone())
+    * C++에서는 할당된 메모리를 delete를 통해 소멸시켜줘야 되나 C#에서는 언어차원에서 가리키는 것이 없으면 자동으로 소멸됨
 
 <br>
 
@@ -125,9 +139,21 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         // ==========	string	==========
         // 문자와 숫자 더하기 하는 경우 int 변수를 문자열 취급
         // 큰 따음표 사용
-        string str = "happy";
-        string message = str + age;
-        Debug.Log(message);
+        string name = "Harry Potter";
+
+        // 1. 찾기
+        bool found = name.Contains("Harry");	// true 
+        int index = name.IndexOF('P');	// 6
+
+        // 2. 번형
+        name = name + " Junior";		// "Harry Potter Junior"
+        string lowerCaseName = name.ToLower();	// 소문자 변형
+        string upperCaseName = name.ToUpper();	// 대문자 변형
+        string newName = name.Replace('r', 'l');	// 치환
+
+        // 3. 분할
+        string[] names = name.Split(new char[] {' '});	// 빈칸으로 분할
+        string subStringName = name.Substring(5);	// 일정 인덱스 이후 문자부터 할당
 
 
         // ==========	char	==========
@@ -258,7 +284,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         int a = 10 / 3;     // 3
         int a = 10 % 3;     // 1
 
-        int b =a ++;
+        int b = a++;
         // int b = a;
         // a += 1
 
@@ -310,7 +336,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
         {
             Debug.Log("방어!");
         }
-        // Debug.Log(inner_str); // 변수 범위를 벗어나므로 오류 발생
+        // (X) Debug.Log(inner_str); // 변수 범위를 벗어나므로 오류 발생
         
 
         // ==========   switch  ==========
@@ -404,8 +430,7 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
             if ((i % 3) !=0)
                 continue;
             
-            // 3이 아닐 때 내용 기재 → if문 보다 가독성이 좋아짐
-
+            // 3으로 나눠질 때 내용 기재 → if문 보다 가독성이 좋아짐
             Debug.Log($"3으로 나뉘는 숫자 발견 : {i}");
         }
 
@@ -421,6 +446,12 @@ public class Test : MonoBehaviour  // class 이름은 script 파일 생성명, M
 
 ## STEP 5. Method(Function)
 
+* static 선언 시 class에 종속되는 유일한 Method 생성 가능
+    * static 내부에서는 this 사용 불가(공용 함수라 개개 인스턴스 고유 정보 접근 불가)
+
+* static method는 객체 생성 없이 직접 호출 가능
+    * (static method) Console.WriteLine();
+    * (일반 method) Random rand = new Random(); rand.Next(0, 2);
 
 ```c#
 using System.Collections;
@@ -574,13 +605,19 @@ public class Test : MonoBehaviour
         * ex) x, y 좌표 포인트
     * class: 인스턴스를 생성하여 각기 인스턴스의 변수값이 변할 필요가 있을 때(참조)
         * ex) 게임 몬스터 인스턴스 생성
+* 클래스 안에 소속되어 있는 변수 : 필드
+    * 필드 들은 class 인스턴스마다 다른 값을 가질 수 있음
+    * static 선언 변수는 오로지 1개만 존재함
 
 ```c#
 // 참조(ref)
 class Knight
 {
+    static public int counter;  // 오로지 1개만 존재!
+
     // 속성
-    public int hp;          // public 모두 사용, 없을 경우 class 내에서만 사용
+    public int id;              // public 모두 사용, 없을 경우 class 내에서만 사용
+    public int hp;         
     public int attack;
 
     // 기능
@@ -593,6 +630,55 @@ class Knight
     {
         Console.WriteLine("Knight Attack");
     }
+
+    // 깊은 복사
+    public Knight Clone()
+    {
+        Knight knight = new Knight();
+        knight.hp = hp;
+        knight.attack = attack;
+        return knight;
+
+    // =========== 생성자 =========== //
+    // new로 생성 시 호출
+    // class 이름과 같아야됨, 반환하는 타입 입력 안함
+    public Knight()
+    {
+        hp = 100;
+        attack = 10;
+        Debug.Log("생성자 호출!");
+
+        id = conuter;   // static 필드 사용예(아이디 카운터 발급)
+        counter++;
+    }
+
+    /*
+    public Knight(int hp, int attack)	// 생성자로 인수를 받는 경우 // Knight knight = new Knight(50, 10);
+    {
+        this.hp = hp;		// 생성자로 같은 이름 사용시 this를 사용하여 구분할 수 있음
+        this.attack = attack;
+        Debug.Log("int 생성자 호출!");
+    } */
+
+    public Knight(int hp) : this()	// 생성자 생성 후 빈 칸은 제일 처음 default 생성자의 값으로 채워 넣음(attack=10), 긴 인수를 가지는 경우 유용함
+    {
+        this.hp = hp;		
+        Debug.Log("int 생성자 호출!");
+    }
+
+    // static method 
+    // method 내부에 this는 사용 안되지만 인스턴스가 사용안된다는 것은 아님
+    // Knight knight = Knight.CreateKnihgt();로 생성가능
+    // Knight.Move();는 안되는 것가 차이 유의(인스턴스 생성 후 객체로 호출해야함)
+    static public Knight CreateKnight()
+    {
+        Knight knight = new Knight();
+        knight.hp = 100;
+        knight.attack = 1;
+        return knight
+    }
+    }
+
 }
 
 
@@ -623,20 +709,314 @@ class Program
         knight.Move();
         knight.Attack();
         KillKnight(knight); // 참조하여 넘기기 때문에 knight.hp는 0
+        // 별도의 ref를 사용하지 않아도 참조됨
 
         Mage mage;
         mage.hp =100;
         mage.attack = 50;
         KillMage(mage);     // 복사하여 넘기기 때문에 mage.hp는 100
+
+        Mage mage2 = mage;
+        mage2.hp = 0;       // mage.hp는 100 유지(복사)
+
+        Knight knight2 = knight;
+        knight2.hp = 0;     // knight.hp는 0(참조)
+        // 독립 인스턴스 생성방법
+        // Knight knight2 = new Kinght();   // 1. 새 인스턴스 생성
+        // knight.hp = 100; // Killknight 때문에 삽입
+        // knight2 = knight.Clone();        // 2. 깊은 복사 사용
     }
 }
 ```
 
 <!------------------------------------ STEP ------------------------------------>
 
+## STEP 7. 상속성
+* OOP(객체지향 프로그래밍) 3대 특성 : 은닉성/상속성/다형성
+* 상속성 언제 사용?
+    * Knight 말고 Mage, Archer 등 직업군을 만들 때 모두 id, hp, attack 등 동일 필드 사용하나 매번 복붙할 수 없음
+    * 묶을만한 하나의 개념
+
+```c#
+class Player		// 부모, 기반
+{
+    static public int counter = 1;
+    public int id;
+    public int hp;
+    public int attac;    
+
+    public Player()
+    {
+        Console.WriteLine("Player 생성자 호출");
+    }
+
+    public Player(int hp)
+    {
+        this.hp = hp;
+        Console.WriteLine("Player hp 생성자 호출");
+    }
+
+    public void Move()
+    {
+        Debug.Log("Player Move"); 
+    }
+}
+
+class Mage : Player		
+{
+}
+
+class knight : Player	// 자식, 파생
+{
+    int a;
+
+    // base를 통해 부모에 접근 가능
+    public Knight() : base(100)	// base(100) 을 통해 Player(int hp) 생성자 호출 가능
+    { 
+        this.a = 10;
+        base.hp = 200;
+        Console.WriteLine("Knight 생성자 호출!");
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Knight knight = new Knight();
+        knight.Move();
+    }
+}
+```
+
 <br>
 
-## STEP 9. ETC
+<!------------------------------------ STEP ------------------------------------>
+
+## STEP 8. 은닉성
+
+* 은닉성
+    * 보안레벨
+    * 왜 사용?
+        * ex) 자동차 핸들 페들 차문 정도만 조작 // 전자장치, 엔진 등은 외부에 노출되어 있지 않음 
+* 접근한정자
+    * public : 모두에게 공개
+    * protected : 상속받은 class까지 사용 가능
+    * private : class 내부에서만 사용(아무것도 입력하지 않을 시 default값)
+
+```c#
+class Knight
+{
+    private int hp;
+    protected int attack;
+
+    public void SetHp(int hp);		// 브레이크 포인트를 잡은 다음 누가 hp를 고쳤는지 확인하기 쉬움
+    {
+        this.hp = hp;
+    }
+}	
+
+class SuperKnight : Knight
+{
+    void Teset()
+    {
+        attack = 10;		// protected 필드 접근
+    }
+}
+```
+
+<br>
+
+<!------------------------------------ STEP ------------------------------------>
+
+## STEP 9. class 형식 변환
+
+```c#
+class Player
+{
+    protected int hp;
+    protected in attack;     
+}
+
+
+class Knight : Player
+{
+}
+
+class Mage : Player
+{
+    public int mp;
+}
+
+class Program
+{
+    static void EnterGame(Player player)	// Knight나 Mage가 아니라 Player 가능
+    {
+        
+        // (X) Mage mage = (Mage)player;    // knight를 인수로 받음에도 class 변환 가능	
+        // (X) mage.mp = 10;                    // knight에 인수가 없으므로 실행시 에러발생
+        // 위 코드는 컴파일 과정에서 정상문법으로 인지하므로 에러를 알기 어려움
+        // class 변환시 크로스 체크를 하는 과정이 필요함
+        // 1.
+        bool isMage = (player is Mage);
+        if (isMage)
+        {
+            Mage mage = (Mage)payer;
+            mage.mp =10;
+        }
+
+        // 2. as 연산자: 변환가능 시 결과 리턴 실패하면 null 리턴
+        // 캐스트 식과 달리 as 연산자는 예외를 throw하지 않음
+        Mage mage = (player as Mage);	// Mage 클래스가 아닐 경우 null
+        if (mage != null)
+            mage.mp = 10;
+    }
+
+    static void Main(string[] args)
+    {
+        Knight knight = new Knight();
+        Mage mage = new Mage();
+
+        // Mage 타입 → Player 타입 가능
+        Player magePlayer = mage;
+        // Player 타입 → Mage 타입?
+        //(X) Mage mage2 = magePlayer        // Error occurred
+        Mage mage2 = (Mage)magePlayer;     // class 변환
+
+        EnterGame(knight);
+    }
+}
+```
+
+<br>
+
+<!------------------------------------ STEP ------------------------------------>
+
+## STEP 10. 다형식(virtual, override)
+
+* 오버라이딩 
+    * 어떤 함수에다가 실제 타입에 따라서 다양한 형태로 동작하겠다는 의미
+    * virtual method를 상속받으면 자손 뿐만 아니라 손자 이하도 override 가능
+
+* virtual 버전은 일반 버전보다 성능에 부하를 미치기 때문에 모두 virtual은 비추천
+
+```c#
+// =========== 다형성 사용 이전  =========== //
+class Player
+{
+    protected int hp;
+    protected in attack;     
+
+    public void Move()
+    {
+        Console.WriteLine("Player 이동!");
+    }    
+}
+
+
+class Knight : Player
+{
+}
+
+class Mage : Player
+{
+    public int mp;
+
+    public new void Move()	// new를 붙임으로써 새로운 Method 가능 
+    {
+        Console.WriteLine("Mage 이동!");
+    }    
+}
+
+class Program
+{
+    static void EnterGame(Player player)	
+    {
+        bool isMage = (player is Mage);
+        if (isMage)
+        {
+            Mage mage = (Mage)payer;
+            mage.mp =10;
+        }
+
+        player.Move();    
+        // mage를 인수로 넘겨줘도 우리가 새로 지정한 mage.Move()가 동작하지 않음 
+        // 앞으로 이런식으로 코드가 많이 작성될 텐데 어떻게 구별하지?
+    }
+    
+    static void Main(string[] args)
+    {
+        Knight knight = new Knight();
+        Mage mage = new Mage();
+
+        EnterGame(mage);
+    }
+}
+
+// =========== 다형성(virtual)  =========== //
+class Player
+{
+    protected int hp;
+    protected in attack;     
+
+    public virtual void Move()	// virtual 추가
+    {
+        Console.WriteLine("Player 이동!");
+    }    
+}
+
+
+class Knight : Player
+{
+    public override void Move()     // 오버라이딩하여
+    {
+        base.Move();		                // 부모껄 먼저 호출 후(자주 쓰이는 패턴) 
+        Console.WriteLine("Knight 이동");    // 기능 추가
+    }
+    // (참고) public sealed override void Move() : sealed 사용시 이후 자손 부터는 오버라이딩 불가
+
+}
+
+class Mage : Player
+{
+    public int mp;
+	
+    // 오버라이딩 cf) 오버로딩(함수 이름의 재사용)
+    public override void Move()	// new 대신 override 변경 
+    {
+        Console.WriteLine("Mage 이동!");
+    }    
+}
+
+class Program
+{
+    static void EnterGame(Player player)	
+    {
+        bool isMage = (player is Mage);
+        if (isMage)
+        {
+            Mage mage = (Mage)payer;
+            mage.mp =10;
+        }
+
+        player.Move();	// 
+    }
+    
+    static void Main(string[] args)
+    {
+        Knight knight = new Knight();
+        Mage mage = new Mage();
+
+        EnterGame(mage);    // mage.Move(); 잘 호출 됨
+    }
+}
+```
+
+<br>
+
+<!------------------------------------ STEP ------------------------------------>
+
+## STEP 11. ETC
 
 ```c#
 // ==========   Const(상수)   ========== //
