@@ -36,7 +36,7 @@ grand_parent: Unity
     * ex) Knight
         * 속성: hp, attack
         * 기능: Move, Attack, Die
- 
+
 
 ### Step 0-1. 디버깅
 * 단축키 : F12?
@@ -71,6 +71,8 @@ grand_parent: Unity
 ## STEP 1. Variable(데이터)
 
 ![image-20231226171136681](./../../../images/menu61-sub3-sub21-Basic/image-20231226171136681.png)
+
+* Variable
 
 
 ```C#
@@ -540,6 +542,7 @@ public class Test : MonoBehaviour
         Debug.Log(result);
         Debug.Log(result2);
 
+        
     // ===========  재귀함수    =========== //
     static int Factorial(int n)
     {

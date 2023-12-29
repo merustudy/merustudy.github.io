@@ -37,7 +37,7 @@ grand_parent: P
 
 ### 4일(수)
 
-![img](https://n2.news.naver.com/l.gif?type=content)**특징 테마**
+**특징 테마**
 
 **CBDC**
 
