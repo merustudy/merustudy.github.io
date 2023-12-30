@@ -1018,12 +1018,192 @@ class Program
 
 ## STEP 11. 배열(이하 자료구조)
 
+```c#
+class Program
+{
+    // =========== 예제 =========== //
+    static int GetHighestScore(int[] scores)
+    {
+        int maxValue = 0;
+        foreach (int score in scores)
+        {
+            if (score > maxValue)
+                maxValue = score;
+        }
+        return maxValue;
+    }
 
+    static int GetAverageScore(int[] scores)
+    {
+        if(scores.Length == 0)  // 방어
+            return 0;
+
+        int sum = 0;
+        foreach (int score in scores)
+        {
+            sum += score;
+        }
+        return sum / scores.Length;
+    }        
+    
+    static int GetIndexOf(int[] scores, int value)
+    {
+        for (int i = 0; i < scores.Lenght; i++)
+        {
+            if (scores[i] == value)
+                return i;
+        }
+        return -1;
+    }        
+
+    static int Sort(int[] scores)
+    {
+        for (int i = 0; i < scores.Length; i++)
+        {
+            int minIndex = i;
+
+            for (int j = i; j < scores.Length; j++)
+            {
+                if (scores[j] < scores[minIndex])
+                    minIndex = j;
+            }
+            // swap
+            int temp = scores[i];
+            scores[i] = scores[minIndex];
+            scores[minIndex] = temp;
+        }
+    }
+
+
+    static void Main(string[] args)
+    {
+        // 배열
+        // 생성 방법
+        // 1.
+        int[] scores = new int[5];
+        scores[0] = 10;
+        scores[1] = 50;
+        scores[2] = 30;
+        scores[3] = 40;
+        scores[4] = 20;
+        // 2.
+        int[] scores2 = new int[5] { 10, 20, 30, 40, 50 };   // 추천(new를 통해 참조 할당이라는 것을 인식 가능)
+        int[] socres3 = new int[] { 10, 20, 30, 40, 50 };
+        int[] socres4 = { 10, 20, 30, 40, 50 };
+        
+        // 참조 할당 확인
+        int[] socres5 = scores;
+        scores5[0] = 9999;      // scores[0] 도 9999로 변경
+        
+        // =========== 제어문 접근 =========== //
+        for (int i = 0; i < scores.Length; i++)
+        {
+            Console.WriteLine(scores[i]);
+        }
+
+        // 위와 동일(추천)
+        foreach (int score in scres)
+        {
+            Console.WriteLine(score);
+        }       
+
+        // ========== 예제 실행 =========== //
+        int highestScore = GetHighestScore(scores);
+        int averageScore = GetAverageScore(scores);
+        int index = GetIndexOf(scores, 20);
+        Score(scores);                
+    }
+}
+```
+
+* 다차원 배열
+
+```c#
+class Program
+{
+    class Map
+    {
+        int[,] tiles = new int[5,5] {
+            {1, 1, 1, 1, 1},
+            {1, 0, 0, 0, 1},
+            {1, 0, 1, 0, 1},
+            {1, 0, 0, 0, 1},
+            {1, 1, 1, 1, 1}
+        }
+
+        public void Render()
+        {
+            for (int y = 0; y < tiles.GetLength(1) >; y++)  // GetLength(차원)
+            {
+                for (int x = 0; x < tiles.GetLength(0); x++)
+                {
+                    if (tiles[y, x] == 1)
+                        Console.Write("X");
+                    else
+                        Console.Write("O");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+
+    static void Main(string[] args)
+    {
+        Map map = new Map();
+        map.Rander();
+    }
+}
+```
 
 <br>
 
 <!------------------------------------ STEP ------------------------------------>
 
+## STEP 12. 리스트
+
+* 배열은 크기가 고정되어 있음
+* 리스트는 동적 배열(크기 조절 가능)
+
+```c#
+using System.Collections.Generic; // 리스트 사용을 위해 선언 필요
+// ... 
+class Program
+{
+    static void Main(string[] args)
+    {
+        // List<타입> ← 동적 배열
+        // 타입은 Generic이라 어떤 타입이든 넣을 수 있음
+        // List 마우스 가져다 가면 class 임을 알 수 있음 → 참조 형태 의미
+        List<float> list = new List<float>();
+
+        // ============ 추가
+        // (X) list[0] = 1;     // Error occurred
+        // (O) list.Add(1);
+        for (int i = 0; i < 5; i++)
+            list.Add(i);
+        
+        // =========== 제어문
+        for (int i = 0; i < list.Count; i++)
+            Console.WriteLine(list[i]);
+
+        foreach (int num in list)
+            Console.WriteLine(num);
+
+        // =========== 삽입
+        list.Insert(2, 999);    // 0, 1, 999, 2, 3, 4
+
+        // =========== 삭제
+        // 09:50 부터
+
+    }
+}
+
+```
+
+
+<br>
+
+<!------------------------------------ STEP ------------------------------------>
 
 
 * [[Blog] c# 문법 이벤트(Event) 선언 및 사용 방법](

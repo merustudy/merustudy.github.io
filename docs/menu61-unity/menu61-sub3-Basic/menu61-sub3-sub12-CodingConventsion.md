@@ -41,5 +41,6 @@ grand_parent: Unity
 // 모두 대문자 변수: 변하지 않는 변수(상수)
 const int GAME_SPEED = 3;
 
-
+// 참조형 변수는 new를 통해 생성
+int[] scores = new int[5] { 10, 20, 30, 40, 50 };   // 추천(new를 통해 참조 할당이라는 것을 인식 가능)
 ```
