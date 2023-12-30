@@ -31,7 +31,7 @@ grand_parent: Unity
     * 게임 데이터(게임 구현 리소스 등) : 램   
     * 게임 로직 : CPU 
 
-### Step 1-1. 설계
+### Step 1-2. 설계
 * 절차(Procedure) 지향 : 함수 기반
     * 단점 : 함수 자체가 순서에 종속적 → 관리 어려움
 
@@ -42,7 +42,7 @@ grand_parent: Unity
         * 기능: Move, Attack, Die
 
 
-### Step 1-2. 디버깅
+### Step 1-3. 디버깅
 * 단축키 : F12?
 
 * 브레이크 포인트(중단점) 
@@ -68,7 +68,7 @@ grand_parent: Unity
 * 조사식
     * 변수 값 확인 및 디버그 중 수정 가능
 
-### Step 1-3. Stack/Heap 메모리
+### Step 1-4. Stack/Heap 메모리
 * Stack 메모리
     * 불안정 임시적
     * 함수를 실행하기 위한 메모장 같은 존재(실행 후 소멸)
@@ -1016,7 +1016,21 @@ class Program
 
 <!------------------------------------ STEP ------------------------------------>
 
-## STEP 11. ETC
+## STEP 11. 배열(이하 자료구조)
+
+
+
+<br>
+
+<!------------------------------------ STEP ------------------------------------>
+
+
+
+* [[Blog] c# 문법 이벤트(Event) 선언 및 사용 방법](
+https://afsdzvcx123.tistory.com/entry/C-C-%EB%AC%B8%EB%B2%95-%EC%9D%B4%EB%B2%A4%ED%8A%B8Event-%EC%84%A0%EC%96%B8-%EB%B0%8F-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95)
+
+
+## STEP 99. ETC
 
 ```c#
 // ==========   Const(상수)   ========== //
