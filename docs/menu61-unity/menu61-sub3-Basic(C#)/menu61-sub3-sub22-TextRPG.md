@@ -2,7 +2,7 @@
 layout: default
 title: TextRPG
 nav_order: 22
-parent: Basic(Unity)
+parent: Basic(C#))
 grand_parent: Unity
 ---
 # TextRPG

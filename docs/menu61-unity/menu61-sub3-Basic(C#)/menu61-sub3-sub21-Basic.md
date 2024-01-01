@@ -2,7 +2,7 @@
 layout: default
 title: Basic
 nav_order: 21
-parent: Basic(Unity)
+parent: Basic(C#)
 grand_parent: Unity
 ---
 
@@ -20,9 +20,6 @@ grand_parent: Unity
 </details>
 
 <!------------------------------------ STEP ------------------------------------>
-
-```C#
-```
 
 ## STEP 1. 기본 지식
 ### Step 1-1. 개요

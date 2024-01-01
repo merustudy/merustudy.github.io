@@ -2,7 +2,7 @@
 layout: default
 title: Basic Method
 nav_order: 26
-parent: Basic(Unity)
+parent: Basic(C#)
 grand_parent: Unity
 ---
 

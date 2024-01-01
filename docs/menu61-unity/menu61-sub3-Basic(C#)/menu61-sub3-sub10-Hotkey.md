@@ -2,7 +2,7 @@
 layout: default
 title: Hotkey
 nav_order: 10
-parent: Basic(Unity)
+parent: Basic(C#)
 grand_parent: Unity
 ---
 
