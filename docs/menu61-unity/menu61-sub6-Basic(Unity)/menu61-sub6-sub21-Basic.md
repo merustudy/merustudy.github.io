@@ -26,10 +26,26 @@ grand_parent: Unity
 * 빈 GameObject에 여러 Component를 조립하여 제작
 * script파일을 파일명과 class 명이 같아야
 
+* 어떤 기능을 Srpite로 만들 것인가 UI로 만들 것인가 
+    * Sprite와 UI 차이
+        * Sprite : 실제 영화 씬
+        * UI : 영화 찍은 후 CG
+
 ### Step 1-2. 폴더 관리
 
 * Assets
     * @Resources
+        * Data, Font, Sounds
+        * Prefabs
+            * Creature
+        * Creatures
+            * Sprites 안에 관리할지? Animations 따로 관리할지? 아니면 Creature와 같이 관리할지 고민(케바케)
+            * 여기서는 별도의 Creature 상위 폴더에 각기 하위 폴더를 만들어 이미지, animation 파일을 같이 모아서 관리
+            * Goblin_01, Slime_01, Snake_01, ...
+        * Sprites 
+            * Item, Map, ...
+            * UI
+                * Joystick
     * @Scripts
     * @Scenes
         * Contents, Controllers, Managers, Ui, Utils
