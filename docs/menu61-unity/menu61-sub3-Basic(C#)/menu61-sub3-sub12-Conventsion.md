@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Coding Convention
+title: Convention
 nav_order: 12
 parent: Basic(C#)
 grand_parent: Unity
 ---
 
-# Coding Convention
+# Convention
 {: .no_toc }
 
 <details open markdown="block">
@@ -19,8 +19,6 @@ grand_parent: Unity
 </details>
 <!------------------------------------ STEP ------------------------------------>
 
-```C#
-```
 ## STEP 0. 표기법
 * 스네이크 케이스
   * `var snake_case;`

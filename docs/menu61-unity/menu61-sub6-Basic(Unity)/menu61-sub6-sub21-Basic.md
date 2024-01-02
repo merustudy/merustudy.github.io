@@ -40,7 +40,7 @@ grand_parent: Unity
     * @Resources
         * Data, Font, Sounds
         * Prefabs
-            * Creature, Map
+            * Creature, Map, UI
         * Creatures
             * Sprites 안에 관리할지? Animations 따로 관리할지? 아니면 Creature와 같이 관리할지 고민(케바케)
             * 여기서는 별도의 Creature 상위 폴더에 각기 하위 폴더를 만들어 이미지, animation 파일을 같이 모아서 관리
@@ -50,11 +50,13 @@ grand_parent: Unity
             * UI
                 * Joystick
     * @Scripts
-        * Contents, Managers, Ui, Utils
+        * Contents, Managers, Utils
         * Scenes
             * Game
         * Controllers
             * PlayerController
+        * UI
+            * Joystick : UI_Joystick
     * @Scenes
         * GameScene
 
@@ -164,7 +166,6 @@ public class GameScene : MonoBehaviour
 }
 ```
 
-
 * preFab 코드로 인게임 배치된 오브젝트 연결하기
     * 코드로 생성되기 때문에 드래그드롭 안됨
 
@@ -194,3 +195,7 @@ public class CameraController : MonoBehaviour
 ```
 
 <br>
+
+### Step 1-7. Joystick
+
+* UI로 제작
