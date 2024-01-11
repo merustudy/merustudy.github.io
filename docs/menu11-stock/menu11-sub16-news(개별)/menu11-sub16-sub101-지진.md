@@ -27,7 +27,7 @@ grand_parent: Stock
 
 
 
-* **2024-01-02(화) [일본 7.6 강진에 사상자 속출…"이번이 끝 아냐" 경고도**](https://www.yonhapnewstv.co.kr/news/MYH20240102012300641?input=1825m)
+* **2024-01-02(화) [지진] [일본 7.6 강진에 사상자 속출…"이번이 끝 아냐" 경고도**](https://www.yonhapnewstv.co.kr/news/MYH20240102012300641?input=1825m)
   * **파라텍 (+16.11%** **/** **1,008억)** 
     * [파라텍 주가 '펄펄'…日 지진에 소방 관련주 급등](https://www.cwn.kr/news/articleView.html?idxno=22000)
   * **하이드로리튬 (+14.42%** **/** **918억)**
