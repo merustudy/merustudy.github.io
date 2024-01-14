@@ -31,3 +31,4 @@ grand_parent: Stock
 ## 2024년
 
 * 2024-01-02(화) [이재명, 부산서 흉기 피습…응급처치 후 헬기로 서울 이송](https://www.yna.co.kr/view/AKR20240102054955001?input=1195m)
+* 2024-01-11(목) 14:00 [이낙연 탈당·신당 창당 선언…"민주당, 1인·방탄 정당으로 변질"](https://news.jtbc.co.kr/article/article.aspx?news_id=NB12160316)

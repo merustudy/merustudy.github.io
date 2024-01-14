@@ -89,6 +89,9 @@ grand_parent: Stock
 * **2023-12-11(월) [이낙연] [[단독\] 이낙연 “이재명 민주당에선 바람직한 정치 할 수 없어…혁신 얘기도 부질없다” 사실상 결별 선언](https://www.seoul.co.kr/news/newsView.php?id=20231210500082&wlog_tag3=naver)**
     * [[단독\] 이준석 "27일 탈당 가능성…이낙연과 만날 준비 돼 있다"](https://www.dt.co.kr/contents.html?article_no=2023121002109958074003&ref=naver)
     * 더코디 (+21.07% / 74억) 범양건영 (+13.5% / 110억) 부국철강 (+10.25% / 1,163억) 시너지이노베이션 (+7.65% / 20억) 주연테크 (+5.66% / 23억) 남성 (+5.38% / 115억) 삼부토건 (+3.19% / 213억) 남선알미늄 (+1.93% / 726억)
+* **2024-01-11(목) [이낙연] [이낙연 탈당·신당 창당 선언…"민주당, 1인·방탄 정당으로 변질"](https://news.jtbc.co.kr/article/article.aspx?news_id=NB12160316)**
+    * 부국철강(-4% / 50억) 
+    * 2024-01-12(금) 부국철강(-7% / 40억)
 
 <br>
 
@@ -96,7 +99,9 @@ grand_parent: Stock
 
 ## 조국
 * 조국 2심 판결
-  *예정일시: [2024년 2월 8일](https://www.chosun.com/national/court_law/2023/11/21/UURQ5I426BHFLLDQKYDYNAUYBI/)
+  
+  * 예정일시: [2024년 2월 8일](https://www.chosun.com/national/court_law/2023/11/21/UURQ5I426BHFLLDQKYDYNAUYBI/)
+  
   * 1심 판결: 조 전 장관에게 징역 2년을 선고하고 600만원의 추징금을 명령했다. 조 전 장관의 자녀 입시비리 의혹, 딸 장학금 수수, 감찰 무마 혐의가 대체로 유죄로 판단
 
 <br>
