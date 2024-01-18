@@ -53,7 +53,8 @@ grand_parent: Stock
   * 대양금속 ( +21.13% / 304억 ) 
     * 김홍국 사외이사, 경기도 신임 대변인 이력으로 이재명 관련주 부각
 
-
+* 2024-01-17(수) [이재명] [복귀한 이재명 “세상 사람들 고통 비하면 내 일은 사소해”](https://www.chosun.com/politics/assembly/2024/01/17/VHHNVDXCHJESHD57PWY67CIJHE/)
+  * 대양금속 ( +14.82% / 148억 )
 
 
 <br>
