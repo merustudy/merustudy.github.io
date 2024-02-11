@@ -22,9 +22,10 @@ grand_parent: Stock
 
 
 ## 정부 부처 주간일정 및 보도계획(정부사이트)
+* [머니투데이 정부 부처 주간일정 및 보도계획](https://search.mt.co.kr/?srchFd=TOTAL&range=TOTAL&category=TOTAL&reSrchFlag=&preKwd=&search_type=m&mode=&code=&kwd=%C1%A4%BA%CE+%BA%CE%C3%B3+%C1%D6%B0%A3%C0%CF%C1%A4+%B9%D7+%BA%B8%B5%B5%B0%E8%C8%B9)
+* [이데일리 문체부 주간계획](https://www.edaily.co.kr/search/index?keyword=%EB%AC%B8%EC%B2%B4%EB%B6%80%20%EC%A3%BC%EA%B0%84%EA%B3%84%ED%9A%8D)
 * [한국은행 주간보도계획(금요일 오전10시30분 업데이트)](https://www.bok.or.kr/portal/bbs/P0001726/list.do?menuNo=200039)
 * [농림축산식품부 주간일정(?요일 ?시 업데이트)](https://www.mafra.go.kr/home/5306/subview.do)
-
 * [통계청 보도계획](https://kostat.go.kr/newsPln.es?mid=a10305000000&bid=)
 
 
@@ -116,8 +117,13 @@ grand_parent: Stock
 
 ### 2023년 UAM
 * 2023-04-17(월) [UAM] [K-UAM 핵심기술 R&D사업 예타대상 선정](https://www.koit.co.kr/news/articleView.html?idxno=111923)
+
 * 2023-08-23(수) [UAM] [6G R&D에 5년간 총4400억원 투입…UAM·우주·로봇 차세대 신산업 예타 통과](https://www.etnews.com/20230823000208)
     * 반응 없음
+
+      
+
+<br>
 
 ### 2023년 전고체 베터리
 * 2023-06-19(월) [전고체] [게임체인저 될 차세대 이차전지 R&D 추진...산업부, 신속예타신청](https://www.etnews.com/20230619000011)
