@@ -21,6 +21,7 @@ permalink: /
 
 ### 기타
 * [스타일 일관성 유지시켜주는 새로운 기술](https://www.clien.net/service/board/cm_aigurim/18467242?od=T31&po=2&category=0&groupCd=)
+* [ChatGPT+Stable Diffusion: 프롬프트 작성 너무 쉽습니다. 미친 조합이에요!](https://www.youtube.com/watch?v=rQpaoCGpnGY)
 
 
 
