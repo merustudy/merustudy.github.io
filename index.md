@@ -14,6 +14,9 @@ permalink: /
 
 ## Stable Diffusion 관련 사이트
 
+### 셋팅
+* [Stable-Diffusion WebUI Colab 무료 티어 이용방법! (colab, 무료)](https://www.youtube.com/watch?v=C8uEhp822BI)
+
 ### 학습(드립 부스)
 * [초보 분들을 위한 드림 부스 셋팅 정보입니다.](https://www.clien.net/service/board/cm_aigurim/17996081)
 * [Dreambooth로 특정 화가의 스타일을 학습시키기](https://www.clien.net/service/board/cm_aigurim/18000175)
