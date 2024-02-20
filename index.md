@@ -35,3 +35,8 @@ permalink: /
 ### Unity Animation
 
 * [쉽고 빠른 애니메이션 제작을 위한 2D Animation 패키지 기능 완전 정복!](https://www.youtube.com/watch?v=b3J2SInvuwM&list=PL412Ym60h6uvqYiCVKk5NiEFpDEwOMQFX&index=55)
+
+<br> 
+
+## TODO
+* (이미지 수준을 높일수 있는 팁 #2 - VAE 그리고 CLIP skip)[https://www.youtube.com/watch?v=sXpC15-K6qM]
