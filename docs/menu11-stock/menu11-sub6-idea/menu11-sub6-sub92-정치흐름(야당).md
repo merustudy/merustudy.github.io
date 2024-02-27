@@ -31,6 +31,9 @@ grand_parent: Stock
 ## 2024년
 
 * 2024-01-02(화) [이재명, 부산서 흉기 피습…응급처치 후 헬기로 서울 이송](https://www.yna.co.kr/view/AKR20240102054955001?input=1195m)
+
 * 2024-01-11(목) 14:00 [이낙연 탈당·신당 창당 선언…"민주당, 1인·방탄 정당으로 변질"](https://news.jtbc.co.kr/article/article.aspx?news_id=NB12160316)
-* 2024-02-08(목) [조국 '입시비리·감찰무마' 오늘 2심 선고…1심 실형 1년만](https://www.yna.co.kr/view/AKR20240207170100004?input=1195m)
-* 2024-02-13(화) 조국 문재인과 만나 총선 입장표명(예정)
+
+* 2024-02-27(화) [이재명 면전에 "당대표가 자기 가죽은 안벗겨" 민주당 공천갈등에 분열 분위기](https://n.news.naver.com/article/088/0000864489?cds=news_media_pc&type=editn)
+
+  
