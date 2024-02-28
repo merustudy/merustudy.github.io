@@ -43,3 +43,18 @@ permalink: /
 
 ## TODO
 * (이미지 수준을 높일수 있는 팁 #2 - VAE 그리고 CLIP skip)[https://www.youtube.com/watch?v=sXpC15-K6qM]
+
+<br>
+
+## TEMP
+### 24.02.28
+* [2DAnimation! 본 애니메이션!](https://www.youtube.com/watch?v=BSYwMXcQ2ak)
+* [게임 유닛(Game Unit)과 Pixels Per Unit](https://wonsorang.tistory.com/391)
+
+### 게임성
+* [매직서바이벌](https://nomoneygame.tistory.com/106)
+* [오라룩스]
+
+### 디자인
+* [단조의 장인]
+* [[속보] 합계출산율 사상 첫 0.6명대 추락...지난해 출생아 23만 명](https://n.news.naver.com/article/052/0002003762?type=breakingnews)
