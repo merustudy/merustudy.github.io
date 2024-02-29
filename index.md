@@ -42,6 +42,27 @@ permalink: /
 ### 게임성
 * [매직서바이벌](https://nomoneygame.tistory.com/106)
 * [오라룩스]
+* [던전 스쿼드]
+* [레드 브로즈]
 
 ### 디자인
 * [단조의 장인]
+
+
+## 유니티 ANIM
+* [How to animate your Photoshop characters in Unity](https://www.youtube.com/watch?v=vLDK0eHwsho)
+* [Unity 스프라이트 교환 기능](https://www.youtube.com/watch?v=wBGykdKd80w)
+
+* [Unity 2D Rigging E1 - Build the Rig](https://www.youtube.com/watch?v=oxKstruadGc&list=PL2cNFQAw_ndxLtVGMDtbbNdWch4yIioBP&index=1)
+
+* [Building 2D Games with Unity. Part 3: 2D Skeletal Animation](https://www.youtube.com/watch?v=eagChFn_BAE)
+
+* [Unity 2D Animation 2020 – Skin Swapping | Tutorial Part 2](https://www.youtube.com/watch?v=hoKKFQ2PWMw)
+
+## 포토샵
+* [#01. 포토샵에서 마법봉 100%활용하는 완전 꿀팁!! [포토샵팁]](https://www.youtube.com/watch?v=NYSofJsIYAw)
+* [#03. 1초만에 이미지 부분 삭제하는 방법[포토샵팁]](https://www.youtube.com/watch?v=qN6-UAGoQgs)
+    * Shift + F5
+* [#04. 초간단 배경과 자연스럽게 삭제하는 방법[포토샵 팁]](https://www.youtube.com/watch?v=KCsw27MFEiA)
+* [#05.간단하게 컬러보정하는 8가지 방법! [포토샵 팁]](https://www.youtube.com/watch?v=F3qVswEDG8w)
+* [이미지 따는 이 방법을 알까? 초간단 3가지 방법 [예제 파일 제공]](https://www.youtube.com/watch?v=jHz1XaGPL1k)
