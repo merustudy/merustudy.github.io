@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 정치(야당)
-nav_order: 32
+nav_order: 332
 parent: News
 grand_parent: Stock
 ---

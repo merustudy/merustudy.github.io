@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 정치(여당)
-nav_order: 31
+nav_order: 331
 parent: News
 grand_parent: Stock
 ---
@@ -95,6 +95,9 @@ grand_parent: Stock
 * **2023-12-11(월) [한동훈] [이정재는 황금손?…100억→197억 잭팟 터졌다](https://www.hankyung.com/article/202312117336i)**
   * [이정재·정우성, 120억 유상증자…빅데이터 회사 최대주주](https://www.edaily.co.kr/news/read?newsId=02988086635836552&mediaCodeNo=257&OutLnkChk=Y)
   * 티엔엔터테인먼트 (+30% / 77억) 와이더플래닛 (+29.95% / 4억) 위지윅스튜디오 (+29.9% / 924억) 씨티프라퍼티 (+29.84% / 72억) 래몽래인 (+28.74% / 524억) 에스메디 (+16.16% / 38억) 덱스터 (+8.52% / 349억) 대상홀딩스 (+0.08% / 118억)
+<br>
+
+* **2023-12-21(목) [한동훈] [與 비대위원장에 한동훈 지명…韓, 오후 장관 이임식(종합)](https://www.yna.co.kr/view/AKR20231221068451004?input=1195m)**
 
 <br>
 
