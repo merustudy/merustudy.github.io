@@ -48,3 +48,12 @@ grand_parent: SD
 
 <br>
 
+
+
+## STEP 9. Ref
+
+### Step. ref art
+
+* [style image](https://civitai.com/images/3504175)
+
+* [GameIconResearch_pencilman](https://civitai.com/models/105297/gameiconresearchpencilman)
