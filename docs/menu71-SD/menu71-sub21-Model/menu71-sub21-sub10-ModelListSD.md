@@ -30,6 +30,12 @@ grand_parent: SD
 
 
 
+### Step. Pixel Art
+
+* [M_Pixel 像素人人](https://civitai.com/models/44960/mpixel)
+
+
+
 <br>
 
 
