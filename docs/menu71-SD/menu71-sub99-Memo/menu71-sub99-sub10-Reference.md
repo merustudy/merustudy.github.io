@@ -40,3 +40,12 @@ game chracter, in game, white background, whole body
 background
 ```
 
+
+
+```python
+# P
+vector art of humanoid,sprite
+# N
+realistic, shadow
+```
+

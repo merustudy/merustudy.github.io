@@ -42,7 +42,12 @@ permalink: /
 <br>
 
 ## TEMP
+* [필독) AI그림 채널 정보글 모음](https://arca.live/b/aiart/70255821?target=all&keyword=모바일+캐릭터&p=2)
+
+
+
 ### 게임성
+
 * [매직서바이벌](https://nomoneygame.tistory.com/106)
 * [오라룩스]
 * [던전 스쿼드]
@@ -69,3 +74,6 @@ permalink: /
 * [#04. 초간단 배경과 자연스럽게 삭제하는 방법[포토샵 팁]](https://www.youtube.com/watch?v=KCsw27MFEiA)
 * [#05.간단하게 컬러보정하는 8가지 방법! [포토샵 팁]](https://www.youtube.com/watch?v=F3qVswEDG8w)
 * [이미지 따는 이 방법을 알까? 초간단 3가지 방법 [예제 파일 제공]](https://www.youtube.com/watch?v=jHz1XaGPL1k)
+
+
+

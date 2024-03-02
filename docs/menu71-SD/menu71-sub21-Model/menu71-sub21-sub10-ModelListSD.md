@@ -54,6 +54,13 @@ grand_parent: SD
 
 ### Step. ref art
 
-* [style image](https://civitai.com/images/3504175)
+* [image](https://civitai.com/images/3504175)
 
 * [GameIconResearch_pencilman](https://civitai.com/models/105297/gameiconresearchpencilman)
+
+
+
+### Step. Adventure time style image
+
+* [image](https://civitai.com/images/3271846)
+
