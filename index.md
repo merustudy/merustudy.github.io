@@ -67,6 +67,9 @@ permalink: /
 
 * [Unity 2D Animation 2020 – Skin Swapping | Tutorial Part 2](https://www.youtube.com/watch?v=hoKKFQ2PWMw)
 
+* [2D Character Customization - Full Skin Changing - Unity Tutorial](https://www.youtube.com/watch?v=ZgCB4tifQ_c&list=RDCMUCLWdeb3R2U_htIdI3RqT5YA&index=2)
+
+
 ## 포토샵
 * [#01. 포토샵에서 마법봉 100%활용하는 완전 꿀팁!! [포토샵팁]](https://www.youtube.com/watch?v=NYSofJsIYAw)
 * [#03. 1초만에 이미지 부분 삭제하는 방법[포토샵팁]](https://www.youtube.com/watch?v=qN6-UAGoQgs)
