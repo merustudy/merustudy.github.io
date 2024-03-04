@@ -68,6 +68,10 @@ permalink: /
 * [Unity 2D Animation 2020 – Skin Swapping | Tutorial Part 2](https://www.youtube.com/watch?v=hoKKFQ2PWMw)
 
 * [2D Character Customization - Full Skin Changing - Unity Tutorial](https://www.youtube.com/watch?v=ZgCB4tifQ_c&list=RDCMUCLWdeb3R2U_htIdI3RqT5YA&index=2)
+  
+* [Spine 2D Animation - Knight Game Character](https://www.youtube.com/watch?v=q3URlLrI1KE)
+  
+* [How To Make Cartoon Chest Opening Animation In Spine 2D](https://www.youtube.com/watch?v=BOqaKeKOV-8)
 
 ### Asset
 * [[유니티 에셋 추천] All In 1 Sprite Shader](https://dev-junwoo.tistory.com/133)
