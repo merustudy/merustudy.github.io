@@ -69,6 +69,12 @@ permalink: /
 
 * [2D Character Customization - Full Skin Changing - Unity Tutorial](https://www.youtube.com/watch?v=ZgCB4tifQ_c&list=RDCMUCLWdeb3R2U_htIdI3RqT5YA&index=2)
 
+### Asset
+* [[유니티 에셋 추천] All In 1 Sprite Shader](https://dev-junwoo.tistory.com/133)
+
+### VFX
+* [How to make Weapon Slash Effect - Spine 2D Animation Tutorial](https://www.youtube.com/watch?v=8pKR9drPfQ0)
+
 
 ## 포토샵
 * [#01. 포토샵에서 마법봉 100%활용하는 완전 꿀팁!! [포토샵팁]](https://www.youtube.com/watch?v=NYSofJsIYAw)
