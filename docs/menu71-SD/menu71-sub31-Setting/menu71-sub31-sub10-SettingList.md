@@ -26,6 +26,11 @@ grand_parent: SD
 
 
 
+### 셋팅
+* [Stable-Diffusion WebUI Colab 무료 티어 이용방법! (colab, 무료)](https://www.youtube.com/watch?v=C8uEhp822BI)
+
+
+
 <br>
 
 ## STEP 2. Tip

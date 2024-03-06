@@ -52,6 +52,14 @@ grand_parent: SD
 
 ## STEP 9. Ref
 
+### Step. Artist
+
+* [Stable Diffusion 에서 지원하는 Artists 목록](https://prompts.co.kr/articles/3648?board_category=4)
+* [Stable Diffusion XL artists list](https://stablediffusion.fr/artists)
+* [Stable Diffusion XL artists list2](https://www.urania.ai/top-sd-artists)
+<br>
+
+
 ### Step. ref art
 
 * [image](https://civitai.com/images/3504175)
