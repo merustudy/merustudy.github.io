@@ -59,3 +59,11 @@ permalink: /
 ## Unity
 ### Game Effect
 * [[Youtube] [Unity]파티클기본설명 개정판 Ver.2019.4.1f1](https://www.youtube.com/watch?v=2De-Bp262eE)
+
+### ETC
+* [[Youtube] 유니티 초보자도 이해하는 URP와 성능, 그리고 모바일까지](https://www.youtube.com/watch?v=wNFjsi6MjAQ)
+     * 기존 Project URP 적용 방법
+
+* [[Youtube] Sprite Atlas (스프라이트 아틀라스)](https://www.youtube.com/watch?v=jqYySxtoIFs)
+
+* [[Blog] 유니티 - 모바일 성능 최적화](https://rito15.github.io/posts/unity-mobile-optimization/)
