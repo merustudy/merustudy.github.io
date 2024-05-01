@@ -23,40 +23,65 @@ grand_parent: Unity
 
 ## STEP 1. 본에니메이션
 
+### Step 1-0. Bone Anim
+* [2DAnimation! 본 애니메이션!](https://www.youtube.com/watch?v=BSYwMXcQ2ak)
+
 
 
 ### Step 1-1. IK Manager
 * Reference: [How to animate your Photoshop characters in Unity](https://www.youtube.com/watch?v=vLDK0eHwsho)
-1. Prefab Object에 IK Manager 추가
-2. LIMB 추가
-3. 영향 주고하는 최상위(ex.어께) 본 하위에 빈 오브젝트 생성
-4. 빈 오브젝트를 영향력 하단(ex. 손 끝) 까지 이동
-5. Solver에서 빈 오브젝트 선택 입력
-6. Solver 타겟 생성
-7. 움직임 확인 후 필요시 flip 체크
+* **사용법**
+  1. Prefab Object에 IK Manager 추가
+  2. LIMB 추가
+  3. 영향 주고하는 최상위(ex.어께) 본 하위에 빈 오브젝트 생성
+  4. 빈 오브젝트를 영향력 하단(ex. 손 끝) 까지 이동
+  5. Solver에서 빈 오브젝트 선택 입력
+  6. Solver 타겟 생성
+  7. 움직임 확인 후 필요시 flip 체크
+* **사용처**
+  * 본 사이즈가 동일하고, 개별 이미지 변화하는 경우, 전체 이미지 변경이 필요가 있는 경우
+     : 장비 변경에 따른 이미지 변화
+     : 몬스터(너무 갯수가 많아질 경우 관리가 어려움 > 묶음의 SpriteLibraryAsset으로 관리)
+  * 모든 파일을 동일 PSD에 관리해야 하므로 너무 많아지는 경우 SpriteLibraryAsset으로 묶음 관리
 
 ### Step 1-2. Spirte Library 
 * Reference: [2D Character Customization - Full Skin Changing - Unity Tutorial](https://www.youtube.com/watch?v=ZgCB4tifQ_c&list=RDCMUCLWdeb3R2U_htIdI3RqT5YA&index=2)
-1. (전제)기본 PSB 파일(Player1) 임포트 및 Rigging 완료
-2. Prefab Object에 Sprite Library 추가
-3. 프로젝트에 Create > 2D > Sprite > Sprite Library Asset 생성
-4. Sprite Library Asset 기본(부모, Player) 빈 Category 만들기
-5. 추가 Sprite Library Asset(Player1) 생성 후 이전 부모 Library(Player) 상속
-6. 각 Category 별로 기본 PSB 파일의 Spirte 추가
-7. Prefab 파일의 하위 교체할 Sprite Render를 가지고 있는 Object에 Sprite Resolver 생성(그룹 선택 후 한번에 생성가능)
-8. 각 Sprite Resolver에 카테고리가 잘 선택되어 있는지 확인
-9. 교체할 새로운 PSB 파일(Player2) 임포트
-10. 임포트한 PSB의 Inspector 창에서 Character Rig의 Main Skeleton에서 이전에 Rigging한 Player1 Skeleton 선택
-11. 임포트한 PSB의 Sprite Editor에 가서 Auto Geometry 생성 및 Apply
-12. Sprite Library Asset(Player2) 생성 후 이전 부모 Library(Player) 상속
-13. 각 Category 별로 새로운 PSB 파일의 Sprite 추가
-14. Prefab Object의 Sprite Library에서 Player1과 Player2를 변경해가며 잘 적용되는지 확인
+* **사용법**
+  1. (전제)기본 PSB 파일(Player1) 임포트 및 Rigging 완료
+  2. Prefab Object에 Sprite Library 추가
+  3. 프로젝트에 Create > 2D > Sprite > Sprite Library Asset 생성
+  4. Sprite Library Asset 기본(부모, Player) 빈 Category 만들기
+  5. 추가 Sprite Library Asset(Player1) 생성 후 이전 부모 Library(Player) 상속
+  6. 각 Category 별로 기본 PSB 파일의 Spirte 추가
+  7. Prefab 파일의 하위 교체할 Sprite Render를 가지고 있는 Object에 Sprite Resolver 생성(그룹 선택 후 한번에 생성가능)
+  8. 각 Sprite Resolver에 카테고리가 잘 선택되어 있는지 확인
+  9. 교체할 새로운 PSB 파일(Player2) 임포트
+  10. 임포트한 PSB의 Inspector 창에서 Character Rig의 Main Skeleton에서 이전에 Rigging한 Player1 Skeleton 선택
+  11. 임포트한 PSB의 Sprite Editor에 가서 Auto Geometry 생성 및 Apply
+  12. Sprite Library Asset(Player2) 생성 후 이전 부모 Library(Player) 상속
+  13. 각 Category 별로 새로운 PSB 파일의 Sprite 추가
+  14. Prefab Object의 Sprite Library에서 Player1과 Player2를 변경해가며 잘 적용되는지 확인
+* **사용처**
+  * 본 사이즈가 동일하고, 전체 이미지를 변경할 필요가 있는 경우, 장비마다 이미지 갯수가 많지 않은 경우
+    : 케릭터 스킨, 동일 케릭터 남여(장비 변경에 따른 이미지 변화 없음)
+    : 몬스터
+
 
 ### Step 1-3. 위 케릭터 정렬 방법 
 * [정렬 그룹](https://docs.unity3d.com/kr/2017.4/Manual/SortingGroup.html)
     * [Transparency Sort Mode에서 소팅 이상해지는 어케해야할까](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=32436&page=1)
 
 
+
+### Step 1-4. Trouble Shooting
+  * 부분 위치가 잘못된 경우
+    1. PSD 파일에서 해당 레이어 원하는 위치로 변환
+    2. Editor가면 PSD 이미지는 위치가 이동되어 있느나 해당 본은 그대로 일것임 → 본 원하는 위치로 이동
+  
+  * 노이즈 있는 경우
+    1. PSD 파일에서 해당 노이즈 제거
+    2. 바로 반영되어 나타남 
+    
 <br>
 
 ## STEP. ETC
