@@ -37,3 +37,9 @@ grand_parent: Unity
 
 ### Step 1-4. Attack
 * [Building 2D Games with Unity. Part 3: 2D Skeletal Animation](https://www.youtube.com/watch?v=eagChFn_BAE)_1:11:00
+
+<br>
+
+## STEP 2. VFX
+
+* (VFX LINK 1)[https://rtfxanimation.com/]
