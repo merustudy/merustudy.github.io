@@ -43,3 +43,10 @@ grand_parent: Unity
 ## STEP 2. VFX
 
 * (VFX LINK 1)[https://rtfxanimation.com/]
+
+<br>
+
+## STEP 9. INTRO
+
+* (지금 당장 SORA 처럼 쓸 수 있는 비디오 AI 3가지)[https://www.youtube.com/watch?v=_EUaeJ-IBAY]
+  * Domoai
