@@ -38,10 +38,11 @@ grand_parent: Unity
   5. Solver에서 빈 오브젝트 선택 입력
   6. Solver 타겟 생성
   7. 움직임 확인 후 필요시 flip 체크
+
 * **사용처**
   * 본 사이즈가 동일하고, 개별 이미지 변화하는 경우, 전체 이미지 변경이 필요가 있는 경우
-     : 장비 변경에 따른 이미지 변화
-     : 몬스터(너무 갯수가 많아질 경우 관리가 어려움 > 묶음의 SpriteLibraryAsset으로 관리)
+    - 장비 변경에 따른 이미지 변화
+    - 몬스터(너무 갯수가 많아질 경우 관리가 어려움 > 묶음의 SpriteLibraryAsset으로 관리)
   * 모든 파일을 동일 PSD에 관리해야 하므로 너무 많아지는 경우 SpriteLibraryAsset으로 묶음 관리
 
 ### Step 1-2. Spirte Library 
@@ -61,10 +62,11 @@ grand_parent: Unity
   12. Sprite Library Asset(Player2) 생성 후 이전 부모 Library(Player) 상속
   13. 각 Category 별로 새로운 PSB 파일의 Sprite 추가
   14. Prefab Object의 Sprite Library에서 Player1과 Player2를 변경해가며 잘 적용되는지 확인
+
 * **사용처**
   * 본 사이즈가 동일하고, 전체 이미지를 변경할 필요가 있는 경우, 장비마다 이미지 갯수가 많지 않은 경우
-    : 케릭터 스킨, 동일 케릭터 남여(장비 변경에 따른 이미지 변화 없음)
-    : 몬스터
+    - 케릭터 스킨, 동일 케릭터 남여(장비 변경에 따른 이미지 변화 없음)
+    - 몬스터
 
 
 ### Step 1-3. 위 케릭터 정렬 방법 
