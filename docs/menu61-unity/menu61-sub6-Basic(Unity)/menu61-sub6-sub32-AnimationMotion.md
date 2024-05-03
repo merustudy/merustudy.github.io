@@ -50,3 +50,4 @@ grand_parent: Unity
 
 * (지금 당장 SORA 처럼 쓸 수 있는 비디오 AI 3가지)[https://www.youtube.com/watch?v=_EUaeJ-IBAY]
   * Domoai
+* (Tutorial : Character Animation [Viggle, GoEnhance, Domo, Chromox])[https://www.youtube.com/watch?v=KD35lO6qu9A]
