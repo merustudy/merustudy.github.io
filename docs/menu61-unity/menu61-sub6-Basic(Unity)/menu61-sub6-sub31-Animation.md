@@ -25,10 +25,19 @@ grand_parent: Unity
 
 1. PSD를 Basic용(레이어 그룹 없이 기본 레이어 모두 하나씩만 들어가 있는 파일)과 Asset용(모든 레이어)으로 구별
 2. Basic용 PSD를 이용하여 PSD import 및 리깅, IK Manager 진행
-3. 애니메이터를 PSD 프리팹에 직접 넣을 경우 본 스크립트와 연결할 Router 스크립트 필요
-4. PSD 프리팹에 SpriteLibrary와 하위 Sprite Renderer가 존재하는 오브젝트들에 Sprite Resolver 추가
-5. SpriteLibraryAsset을 생성하여 Asset용 PSD파일에서 이미지 가져오기
-6. PSD 프리팹에 SpriteLibraryAsset 적용
+3. **PSD Asset용 파일을 Basic 리깅한 스켈레톤에 연결하기(Step1-2참고)**
+4. 애니메이터를 PSD 프리팹에 직접 넣을 경우 본 스크립트와 연결할 Router 스크립트 필요
+5. PSD 프리팹에 SpriteLibrary와 하위 Sprite Renderer가 존재하는 오브젝트들에 Sprite Resolver 추가
+6. SpriteLibraryAsset을 생성하여 Asset용 PSD파일에서 이미지 가져오기
+7. PSD 프리팹에 SpriteLibraryAsset 적용
+
+
+
+* PSD 프리팹에 애니메이션 및 SpriteLibrary 넣어서 관리하는게 좋다(Router로 상위 컨트롤러와 애니메이션 이벤트 연결)
+
+* 웬만하면 프리팹을 복사 사용하기 보다는 새로 만들자(꼬임 발생)
+
+  
 
 <br>
 
@@ -93,6 +102,7 @@ grand_parent: Unity
     1. PSD 파일에서 해당 노이즈 제거
     2. 바로 반영되어 나타남 
     
+
 <br>
 
 ## STEP. ETC
