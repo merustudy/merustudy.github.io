@@ -47,7 +47,10 @@ grand_parent: Unity
 * [2DAnimation! 본 애니메이션!](https://www.youtube.com/watch?v=BSYwMXcQ2ak)
 
 ### Step 1-1. IK Manager
-* Reference: [How to animate your Photoshop characters in Unity](https://www.youtube.com/watch?v=vLDK0eHwsho)
+* Reference
+  * [How to animate your Photoshop characters in Unity](https://www.youtube.com/watch?v=vLDK0eHwsho)
+  * [Unity Sprite Swap Feature](https://www.youtube.com/watch?v=wBGykdKd80w)
+
 * **사용법**
   1. Prefab Object에 IK Manager 추가
   2. LIMB 추가
