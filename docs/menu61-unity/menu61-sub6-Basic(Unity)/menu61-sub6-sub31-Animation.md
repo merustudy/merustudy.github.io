@@ -97,14 +97,16 @@ grand_parent: Unity
 
 
 ### Step 1-4. Trouble Shooting
-  * 부분 위치가 잘못된 경우
+* 부분 위치가 잘못된 경우
     1. PSD 파일에서 해당 레이어 원하는 위치로 변환
     2. Editor가면 PSD 이미지는 위치가 이동되어 있느나 해당 본은 그대로 일것임 → 본 원하는 위치로 이동
-  
-  * 노이즈 있는 경우
+
+* 노이즈 있는 경우
     1. PSD 파일에서 해당 노이즈 제거
     2. 바로 반영되어 나타남 
-    
+
+* 전체 Auto Geometry는 PSD visivilty 에서 숨겨져 있으면 오류 발생(모든 스프라이트다 보인 상태에서 해야됨)
+  * 개별 스프라이트 Auto Geometry는 가능
 
 <br>
 
