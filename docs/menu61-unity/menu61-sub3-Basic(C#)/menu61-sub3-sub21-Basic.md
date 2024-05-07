@@ -1015,6 +1015,14 @@ class Program
 
 ## STEP 11. 배열(이하 자료구조)
 
+* HashSet 중복 요소 허용 안함(중복 Object 추가시 그냥 유지됨)
+* List 중복 요소 허용
+
+* List 갯수 반환 List.Count
+* Arry 갯수 반환 Arry.Length
+    * [URL_Unity 배열과 List의 Length와 Count차이](https://wlsdn629.tistory.com/entry/Unity-%EB%B0%B0%EC%97%B4%EA%B3%BC-List%EC%9D%98-Length%EC%99%80-Count%EC%B0%A8%EC%9D%B4)
+
+
 ```c#
 class Program
 {
