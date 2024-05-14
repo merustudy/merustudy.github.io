@@ -42,9 +42,18 @@ grand_parent: Unity
 
 ## STEP 2. 최적화
 ### Step 2-0. 프로파일러
-* [유니티 프로파일러(Profiler)를 이용해 성능 개선하기](https://dev-nicitis.tistory.com/7)
-* [유니티 최적화_프로파일러](https://coderzero.tistory.com/entry/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EC%B5%9C%EC%A0%81%ED%99%94-%ED%94%84%EB%A1%9C%ED%8C%8C%EC%9D%BC%EB%9F%AC)
- 
+* About Profiler
+  * [유니티 프로파일러(Profiler)를 이용해 성능 개선하기](https://dev-nicitis.tistory.com/7)
+  * [유니티 최적화_프로파일러](https://coderzero.tistory.com/entry/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EC%B5%9C%EC%A0%81%ED%99%94-%ED%94%84%EB%A1%9C%ED%8C%8C%EC%9D%BC%EB%9F%AC)
+  * [유니티 - 프로파일링을 통한 최적화](https://rito15.github.io/posts/unity-opt-profiling/)   
+
+* Connect Profiler to Mobile
+  * [(UnityEngine) Unity Profiler Manual](https://walll4542.wixsite.com/watchthis/post/unity-profiler-manual)
+  * [unity study #6 - 유니티 프로파일러](https://velog.io/@sb8929/Unity-Profiling)
+    
+* Profiler를 통한 개선
+  * [퍼포먼스 스파이크 현상](https://howudong.tistory.com/180)
+
 ### Step 2-1. Reference Stie
 * [(Unity) 유니티 최적화 방법들](https://happysalmon.tistory.com/12)
 * [유니티 공식 유튜브_모바일 게임 성능 최적화 - 1편](https://dev-junwoo.tistory.com/79)
