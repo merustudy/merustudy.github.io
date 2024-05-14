@@ -30,3 +30,10 @@ grand_parent: Unity
 ## STEP 2. UI Particle System
 
 * [자주쓰는 유니티 오픈소스 에셋(Git)](https://ysm2107.tistory.com/7)
+
+<br>
+
+
+## STEP 3. UI Scroll
+
+* [ScrollView(ScrollRect)와 Button(상위 오브젝트)의 드래그/스크롤(OnDrag)에 대한 문제 해결법](https://higatsuryu9975.tistory.com/10)
