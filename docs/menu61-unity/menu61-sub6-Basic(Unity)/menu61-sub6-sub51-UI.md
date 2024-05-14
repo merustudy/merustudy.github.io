@@ -31,7 +31,8 @@ grand_parent: Unity
 
 * [자주쓰는 유니티 오픈소스 에셋(Git)](https://ysm2107.tistory.com/7)
 * [mob-sakai/ParticleEffectForUGUI](https://github.com/mob-sakai/ParticleEffectForUGUI)
-
+* [Particle Effects in UI Canvas_에셋 없이 직접 구현](https://www.youtube.com/watch?v=BS_6SGenKLo)
+ 
 <br>
 
 
