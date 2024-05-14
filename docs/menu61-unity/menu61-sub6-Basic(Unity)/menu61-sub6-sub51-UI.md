@@ -30,6 +30,7 @@ grand_parent: Unity
 ## STEP 2. UI Particle System
 
 * [자주쓰는 유니티 오픈소스 에셋(Git)](https://ysm2107.tistory.com/7)
+* [mob-sakai/ParticleEffectForUGUI](https://github.com/mob-sakai/ParticleEffectForUGUI)
 
 <br>
 
