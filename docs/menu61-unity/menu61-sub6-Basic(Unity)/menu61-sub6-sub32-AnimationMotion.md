@@ -38,6 +38,11 @@ grand_parent: Unity
 ### Step 1-4. Attack
 * [Building 2D Games with Unity. Part 3: 2D Skeletal Animation](https://www.youtube.com/watch?v=eagChFn_BAE)_1:11:00
 
+### Step 1-5. Mouse Follow Control
+
+* Head Control
+  * [Rotate head towards mouse with rotation limits (Roguelike Controller)](https://www.youtube.com/watch?v=M4cT4UY7Arw)   
+
 <br>
 
 ## STEP 2. VFX
