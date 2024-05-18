@@ -43,6 +43,10 @@ grand_parent: Unity
 * Head Control
   * [Rotate head towards mouse with rotation limits (Roguelike Controller)](https://www.youtube.com/watch?v=M4cT4UY7Arw)   
 
+### Step 1-6. Blending
+
+* [Chapter 6-2. 애니메이션 : 블렌딩](https://ansohxxn.github.io/unity%20lesson%202/ch6-2/)
+
 <br>
 
 ## STEP 2. VFX
