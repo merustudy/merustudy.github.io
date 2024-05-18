@@ -77,3 +77,10 @@ realistic, shadow
 5. (참고) 윤곽선 조절(아직 안해봄)
    * [#15 선의 두께를 자유자재로 조절하는 Width 툴 - 일러스트레이터 기초 강좌](https://www.youtube.com/watch?v=ZoUXvXtTfhI)
 
+
+
+### Step 9-2. 포토샵
+
+* [퍼펫뒤틀기](https://www.youtube.com/shorts/79YiCi4LXLg)
+
+  
