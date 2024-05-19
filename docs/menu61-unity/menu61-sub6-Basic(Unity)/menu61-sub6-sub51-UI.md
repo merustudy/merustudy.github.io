@@ -51,3 +51,9 @@ grand_parent: Unity
 ## STEP 3. UI Scroll
 
 * [ScrollView(ScrollRect)와 Button(상위 오브젝트)의 드래그/스크롤(OnDrag)에 대한 문제 해결법](https://higatsuryu9975.tistory.com/10)
+
+<br>
+
+# STEP 4. Localization
+
+* [유니티 로컬라이제이션 기능 사용해보기](https://dev-junwoo.tistory.com/125#%EB%9F%B0%ED%83%80%EC%9E%84%EC%97%90-%EC%96%B8%EC%96%B4-%EB%B0%94%EA%BE%B8%EA%B8%B0)
