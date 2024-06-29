@@ -1,12 +1,14 @@
 ---
 layout: default
-title: 2024
-nav_order: 24
-parent: Post(Stock)
+title: P(Dev)
+nav_order: 11
+parent: Post(Dev)
 has_children: true
+
 ---
 
-# 2024
+# Dev
+
 {: .no_toc }
 
 <details open markdown="block">
@@ -17,4 +19,5 @@ has_children: true
 - TOC
 {:toc}
 </details>
+
 <!------------------------------------ STEP ------------------------------------>

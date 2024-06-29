@@ -1,12 +1,15 @@
 ---
 layout: default
-title: 2022
-nav_order: 22
-parent: Post(Stock)
-has_children: true
+title: Release
+nav_order: 201
+parent: P(Business)
+grand_parent: P
+
+
 ---
 
-# 2022
+# Release
+
 {: .no_toc }
 
 <details open markdown="block">
@@ -18,3 +21,6 @@ has_children: true
 {:toc}
 </details>
 <!------------------------------------ STEP ------------------------------------>
+
+
+

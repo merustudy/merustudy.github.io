@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Stock
-nav_order: 11
+title: Post(Dev)
+nav_order: 12
 has_children: true
 ---
 
-# Stock
+# Post(Dev)
