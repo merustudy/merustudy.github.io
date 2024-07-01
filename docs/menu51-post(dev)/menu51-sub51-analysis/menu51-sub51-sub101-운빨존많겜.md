@@ -3,10 +3,7 @@ layout: default
 title: 운빨존많겜(240629)
 nav_order: 101
 parent: P(Analysis)
-grand_parent: P
-
-
-
+grand_parent: Post(Dev)
 ---
 
 # 운빨존많겜
