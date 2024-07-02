@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Template
+title: 6월
 nav_order: 6
 parent: 2024
 grand_parent: P
