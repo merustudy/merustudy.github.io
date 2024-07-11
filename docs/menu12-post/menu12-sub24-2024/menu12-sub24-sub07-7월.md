@@ -963,7 +963,7 @@ KOSDAQ 개인-501 / 외국인+1,862 / 기관-1,281
 
  
 
-[Novo Nordisk, Lilly must cut US prices of weight-loss drugs, Biden says | Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/biden-says-novo-nordisk-must-cut-prices-diabetes-weight-loss-drugs-2024-07-02/)
+[Novo Nordisk, Lilly must cut US prices of weight-loss drugs, Biden says, Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/biden-says-novo-nordisk-must-cut-prices-diabetes-weight-loss-drugs-2024-07-02/)
 
 - 바이든 대통령, 비만치료제 약가 인하 필요성 언급
 
