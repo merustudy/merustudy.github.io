@@ -2,7 +2,7 @@
 layout: default
 title: 240704 [Design] 다크패턴
 nav_order: 240704
-parent: P(Analysis)
+parent: P(Dev)
 grand_parent: Post(Dev)
 ---
 
